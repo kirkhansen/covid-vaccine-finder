@@ -1,9 +1,29 @@
 import logo from './logo.svg';
+import { ApolloClient, ApolloLink, ApolloProvider, HttpLink, InMemoryCache, concat} from '@apollo/client';
 import './App.css';
-import "./Hyvee";
+import { HyveeVaccines } from "./Hyvee";
+
+const _LINK = new HttpLink({uri: "https://www.hy-vee.com/my-pharmacy/api/graphql"});
+
+const _CORS = new ApolloLink((operation, forward) => {
+  operation.setContext({
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+    }
+  });
+  return forward(operation);
+});
+
+
+
+const HYVEE_APOLLO_CLIENT = new ApolloClient({
+  cache: new InMemoryCache(),
+  link: concat(_CORS, _LINK),
+});
 
 function App() {
   return (
+    <ApolloProvider client={HYVEE_APOLLO_CLIENT}>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,7 +39,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <HyveeVaccines />
     </div>
+    </ApolloProvider>
   );
 }
 

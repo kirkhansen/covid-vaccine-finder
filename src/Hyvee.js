@@ -1,4 +1,4 @@
-import { request, gql } from "graphql-request"
+import { gql, useQuery } from '@apollo/client';
 
 const LOCATIONS = {
     "Clive": [41.5774667, -93.67753619999999],
@@ -7,9 +7,7 @@ const LOCATIONS = {
 
 //    "operationName": "SearchPharmaciesNearPointWithCovidVaccineAvailability",
 //    "variables": {"radius": 50, "latitude": 41.5774667, "longitude": -93.67753619999999},
-const uri = "https://www.hy-vee.com/my-pharmacy/api/graphql"
-const query = gql`
-{
+const PHARMS_WITH_VACCINE = gql`
     query SearchPharmaciesNearPointWithCovidVaccineAvailability(
     $latitude: Float!, $longitude: Float!, $radius: Int! = 40) {
       searchPharmaciesNearPoint(latitude: $latitude,
@@ -38,6 +36,17 @@ const query = gql`
         __typename
       }
     }
-}
 `
-request(uri, query, {"radius": 50, "latitude": 41.5774667, "longitude": -93.67753619999999}).then((data) => console.log(data))
+
+export const HyveeVaccines = () => {
+  const { loading, error, data } = useQuery(PHARMS_WITH_VACCINE);
+
+  if (loading) return 'Loading...';
+  if (error) return `Error! ${error.message}`;
+  console.log(data);
+
+  return (
+    <ul>
+    </ul>
+  )
+}
