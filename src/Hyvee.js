@@ -39,7 +39,10 @@ const PHARMS_WITH_VACCINE = gql`
 `
 
 export const HyveeVaccines = () => {
-  const { loading, error, data } = useQuery(PHARMS_WITH_VACCINE);
+  const variables = {variables: {"radius": 50, "latitude": 41.5774667, "longitude": -93.67753619999999}}
+  console.log(variables);
+  console.log(PHARMS_WITH_VACCINE);
+  const { loading, error, data } = useQuery(PHARMS_WITH_VACCINE, variables);
 
   if (loading) return 'Loading...';
   if (error) return `Error! ${error.message}`;
