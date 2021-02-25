@@ -28,7 +28,7 @@ def get_availability():
     )
     return res.json()["responsePayloadData"]["data"]["IA"]
 
-def check_availability():
+def get_and_check():
     results = []
     availability = get_availability()
     for city in availability:
@@ -40,6 +40,6 @@ def check_availability():
 
 
 if __name__ == "__main__":
-    res = check_availability()
+    res = get_and_check()
     for r in res:
         print(f"({r[0]}) {r[1]}")

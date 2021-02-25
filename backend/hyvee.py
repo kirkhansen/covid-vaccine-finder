@@ -113,4 +113,4 @@ def get_and_check(quiet=True):
 
 
 if __name__ == "__main__":
-    print("\n".join(get_and_check(quiet=True)))
+    print("\n".join(get_and_check(quiet=False)))
