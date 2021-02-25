@@ -1,47 +1,43 @@
-//{
-//    "operationName": "SearchPharmaciesNearPointWithCovidVaccineAvailability",
-//        "variables": {"radius": 50, "latitude": lat, "longitude": lon},
-//        "query": (
-//            "query SearchPharmaciesNearPointWithCovidVaccineAvailability("
-//            "$latitude: Float!, $longitude: Float!, $radius: Int! = 40) {\n"
-//            "  searchPharmaciesNearPoint(latitude: $latitude, "
-//            "longitude: $longitude, "
-//            "radius: $radius) {\n"
-//            "    distance\n"
-//            "    location {\n"
-//            "      locationId\n"
-//            "      name\n"
-//            "      nickname\n"
-//            "      phoneNumber\n"
-//            "      businessCode\n"
-//            "      isCovidVaccineAvailable\n"
-//            "      address {\n"
-//            "        line1\n"
-//            "        line2\n"
-//            "        city\n"
-//            "        state\n"
-//            "        zip\n"
-//            "        latitude\n"
-//            "        longitude\n"
-//            "        __typename\n"
-//            "      }\n"
-//            "      __typename\n"
-//            "    }\n"
-//            "    __typename\n"
-//            "  }\n"
-//            "}\n"
-//        ),
-//}
-import { request, gql } from 'graphql-request'
+import { request, gql } from "graphql-request"
 
+const LOCATIONS = {
+    "Clive": [41.5774667, -93.67753619999999],
+    "Cedar Falls": [42.5348993, -92.4453161],
+}
+
+//    "operationName": "SearchPharmaciesNearPointWithCovidVaccineAvailability",
+//    "variables": {"radius": 50, "latitude": 41.5774667, "longitude": -93.67753619999999},
+const uri = "https://www.hy-vee.com/my-pharmacy/api/graphql"
 const query = gql`
-  {
-    Movie(title: "Inception") {
-      releaseDate
-      actors {
-        name
+{
+    query SearchPharmaciesNearPointWithCovidVaccineAvailability(
+    $latitude: Float!, $longitude: Float!, $radius: Int! = 40) {
+      searchPharmaciesNearPoint(latitude: $latitude,
+    longitude: $longitude,
+    radius: $radius) {
+        distance
+        location {
+          locationId
+          name
+          nickname
+          phoneNumber
+          businessCode
+          isCovidVaccineAvailable
+          address {
+            line1
+            line2
+            city
+            state
+            zip
+            latitude
+            longitude
+            __typename
+          }
+          __typename
+        }
+        __typename
       }
     }
-  }
+}
 `
-request('https://api.graph.cool/simple/v1/movies', query).then((data) => console.log(data))
+request(uri, query, {"radius": 50, "latitude": 41.5774667, "longitude": -93.67753619999999}).then((data) => console.log(data))
