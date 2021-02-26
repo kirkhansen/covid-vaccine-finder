@@ -1,6 +1,8 @@
 import json
 import requests
 
+from covid_vaccine_finder.utils import VaccineRecord
+
 
 LOCATIONS = {
     "Clive": (41.5774667, -93.67753619999999),
@@ -89,16 +91,28 @@ def get_and_check():
             if pharmacy["location"]["isCovidVaccineAvailable"]:
                 ", ".join(get_vaccine_types(pharmacy["location"]["locationId"]))
                 results.append(
-                    (
+                    VaccineRecord(
                         "yes",
                         pharmacy["location"]["name"],
+                        pharmacy["location"]["address"]["line1"],
+                        pharmacy["location"]["address"]["city"],
                         ", ".join(
                             get_vaccine_types(pharmacy["location"]["locationId"])
                         ),
+                        "https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent",
                     )
                 )
             else:
-                results.append(("no", pharmacy["location"]["name"], None))
+                results.append(
+                    VaccineRecord(
+                        "no",
+                        pharmacy["location"]["name"],
+                        pharmacy["location"]["address"]["line1"],
+                        pharmacy["location"]["address"]["city"],
+                        "",
+                        "https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent",
+                    )
+                )
 
     return results
 

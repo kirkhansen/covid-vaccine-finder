@@ -1,8 +1,9 @@
 import calendar
 import datetime
-import json
 import requests
 import time
+
+from covid_vaccine_finder.utils import VaccineRecord
 
 
 LOCATIONS = {
@@ -68,21 +69,33 @@ def check_availability(location_id):
     return dates_with_openings
 
 
-def get_and_check(quiet=True):
-    output = []
+def get_and_check():
+    records = []
     for location_id, name in LOCATIONS.items():
         availability = check_availability(location_id)
         if availability:
-            output.append("\n")
-            output.append("!!! AVAILABLE !!!")
-            output.append(name)
-            output.append(availability)
-            output.append("https://hipaa.jotform.com/{}".format(location_id))
-        elif not quiet:
-            output.append(f"(no) {name}")
+            records.append(VaccineRecord(
+                available="yes",
+                store_name=name,
+                store_city=None,
+                store_address=None,
+                link=f"https://hipaa.jotform.com/{location_id}",
+                vaccine_types=None,
+                ))
+        else:
+            records.append(VaccineRecord(
+                available="no",
+                store_name=name,
+                store_city=None,
+                store_address=None,
+                link=f"https://hipaa.jotform.com/{location_id}",
+                vaccine_types=None,
+                ))
 
-    return output
+    return records
 
 
 if __name__ == "__main__":
-    print("\n".join(get_and_check(quiet=False)))
+    res = get_and_check()
+    for r in res:
+        print(f"({r[0]}) {r[1]}")

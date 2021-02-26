@@ -1,6 +1,8 @@
 import requests
 import http.cookies
 
+from covid_vaccine_finder.utils import VaccineRecord
+
 
 AUTH_COOKIES = "QuantumMetricSessionLink=https://cvs.quantummetric.com/#/users/search?autoreplay=true&qmsessioncookie=6c2984a337fe6370468bd7e94759e51d&ts=1613638149-1613724549; pe=p1; acctdel_v1=on; adh_new_ps=on; adh_ps_pickup=on; adh_ps_refill=on; buynow=off; sab_displayads=on; db-show-allrx=on; disable-app-dynamics=on; disable-sac=on; dpp_cdc=off; dpp_drug_dir=off; dpp_sft=off; getcust_elastic=on; echome_lean6=off-p0; enable_imz=on; enable_imz_cvd=on; enable_imz_reschedule_instore=off; enable_imz_reschedule_clinic=off; …9159FE5FE26~YAAQN9vJF7aPaLV3AQAAAE8v2woOOexo9mm9r1390AGTP/13GcOeO8z3P+X2trZ9PdrOj4++wFMEqMI2s0XDLlRQ5qxEcxn+wHMJCSy+YyEudUVBsQ5hI3Ouv4cw0O+lQ+MBJ4liTvIg2e/8+oEjoCvrI3I2/pEx5VugUO0q7LbpwfUC3gxe3cHwMjZl; gbi_sessionId=ckllem4yl00001w7wogkyay2j; bm_sv=43E776430AEE369E7374E37326F5E6E4~/h5EenCp/L2cxzXwy4XrnM2r3QRjSK0bm+QOQ20YfcLOL3TkmG/FB/tUccP/LPXFm2qzqM+Ciug+EQreog7XvlWPnFEaJxGtHxbvaAsFXHyAyjGVTgRn6v4oERDOww/W3uzkaafcNwDwpdbemz8xaA==; qmexp=1614291892555; QuantumMetricSessionID=919c2bd015639e9fca2b3cf466de70b1"
 COOKIE_JAR = requests.cookies.RequestsCookieJar()
@@ -29,14 +31,32 @@ def get_availability():
     return res.json()["responsePayloadData"]["data"]["IA"]
 
 
-def get_and_check(quiet=False):
+def get_and_check():
     results = []
     availability = get_availability()
     for city in availability:
         if city["status"] == "Fully Booked":
-            results.append(("no", city["city"]))
+            results.append(
+                VaccineRecord(
+                    available="no",
+                    store_name="Not provided",
+                    store_address="Not provided",
+                    store_city=city["city"],
+                    link="https://www.cvs.com/immunizations/covid-19-vaccine",
+                    vaccine_types="Not provided",
+                )
+            )
         else:
-            results.append(("yes", city["city"]))
+            results.append(
+                VaccineRecord(
+                    available="yes",
+                    store_name="Not provided",
+                    store_address="Not provided",
+                    store_city=city["city"],
+                    link="https://www.cvs.com/immunizations/covid-19-vaccine",
+                    vaccine_types="Not provided",
+                )
+            )
     return results
 
 
