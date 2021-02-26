@@ -9,26 +9,27 @@ COOKIE_JAR.update(http.cookies.SimpleCookie(http.cookies.SimpleCookie(AUTH_COOKI
 
 def get_availability():
     headers = {
-        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0',
-        'Accept': '*/*',
-        'Accept-Language': 'en-US,en;q=0.5',
-        'Referer': 'https://www.cvs.com/immunizations/covid-19-vaccine',
-        'DNT': '1',
-        'Connection': 'keep-alive',
-        'Sec-GPC': '1',
-        'Pragma': 'no-cache',
-        'Cache-Control': 'no-cache',
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0",
+        "Accept": "*/*",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Referer": "https://www.cvs.com/immunizations/covid-19-vaccine",
+        "DNT": "1",
+        "Connection": "keep-alive",
+        "Sec-GPC": "1",
+        "Pragma": "no-cache",
+        "Cache-Control": "no-cache",
     }
     params = {"vaccineinfo": ""}
     res = requests.get(
         "https://www.cvs.com/immunizations/covid-19-vaccine.vaccine-status.IA.json",
         headers=headers,
         params=params,
-        cookies=COOKIE_JAR.get_dict()
+        cookies=COOKIE_JAR.get_dict(),
     )
     return res.json()["responsePayloadData"]["data"]["IA"]
 
-def get_and_check():
+
+def get_and_check(quiet=False):
     results = []
     availability = get_availability()
     for city in availability:

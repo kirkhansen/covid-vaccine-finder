@@ -18,11 +18,14 @@ LOCATIONS = {
     "203496657588171": "Carlisle Medicap",
 }
 
+
 def check_availability(location_id):
     today = datetime.date.today()
     this_month = {
         "startDate": today.strftime("%Y-%m-01"),
-        "endDate": today.strftime("%Y-%m-{}".format(calendar.monthrange(today.year, today.month)[1])),
+        "endDate": today.strftime(
+            "%Y-%m-{}".format(calendar.monthrange(today.year, today.month)[1])
+        ),
     }
     # This will never happen, right?
     if today.month == 12:
@@ -31,7 +34,11 @@ def check_availability(location_id):
         today_next_month = today.replace(month=(today.month + 1))
     next_month = {
         "startDate": today_next_month.strftime("%Y-%m-01"),
-        "endDate": today_next_month.strftime("%Y-%m-{}".format(calendar.monthrange(today_next_month.year, today_next_month.month)[1])),
+        "endDate": today_next_month.strftime(
+            "%Y-%m-{}".format(
+                calendar.monthrange(today_next_month.year, today_next_month.month)[1]
+            )
+        ),
     }
 
     dates_with_openings = []
@@ -46,19 +53,20 @@ def check_availability(location_id):
             "endDate": date_range["endDate"],
         }
         response = requests.get("https://hipaa.jotform.com/server.php", params=params)
-        if not response.json()['content']:
+        if not response.json()["content"]:
             return []
-        for d, openings in response.json()['content'].items():
+        for d, openings in response.json()["content"].items():
             if not openings:
                 continue
 
-            timeslots = [timeslot
-                         for timeslot, available
-                         in openings.items() if available]
+            timeslots = [
+                timeslot for timeslot, available in openings.items() if available
+            ]
             if timeslots:
                 dates_with_openings.append({d: timeslots})
 
     return dates_with_openings
+
 
 def get_and_check(quiet=True):
     output = []
@@ -75,6 +83,6 @@ def get_and_check(quiet=True):
 
     return output
 
+
 if __name__ == "__main__":
     print("\n".join(get_and_check(quiet=False)))
-

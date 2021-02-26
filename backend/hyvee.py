@@ -81,36 +81,29 @@ def get_vaccine_types(location_id):
     ]
 
 
-def get_and_check(quiet=True):
-    output = []
+def get_and_check():
+    results = []
     for search_location, coordinates in LOCATIONS.items():
-        if not quiet:
-            output.append("\n")
-            output.append(f"Checking {search_location}...")
-            output.append("---")
-
         response = get_pharmacies_with_vaccine(*coordinates)
         for pharmacy in response:
             if pharmacy["location"]["isCovidVaccineAvailable"]:
-                output.append("\n")
-                output.append("!!! AVAILABLE !!!")
-                output.append(pharmacy["location"]["name"])
-                output.append(pharmacy["location"]["address"]["line1"])
-                output.append(
-                    f"{pharmacy['location']['address']['city']}, {pharmacy['location']['address']['state']}"
+                ", ".join(get_vaccine_types(pharmacy["location"]["locationId"]))
+                results.append(
+                    (
+                        "yes",
+                        pharmacy["location"]["name"],
+                        ", ".join(
+                            get_vaccine_types(pharmacy["location"]["locationId"])
+                        ),
+                    )
                 )
-                output.append(
-                    "Vaccine types: "
-                    + ", ".join(get_vaccine_types(pharmacy["location"]["locationId"]))
-                )
-                output.append(
-                    "Go to https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"
-                )
-            elif not quiet:
-                output.append(f"(no) {pharmacy['location']['name']}")
+            else:
+                results.append(("no", pharmacy["location"]["name"], None))
 
-    return output
+    return results
 
 
 if __name__ == "__main__":
-    print("\n".join(get_and_check(quiet=False)))
+    res = get_and_check()
+    for r in res:
+        print(f"({r[0]}) {r[1]}")
