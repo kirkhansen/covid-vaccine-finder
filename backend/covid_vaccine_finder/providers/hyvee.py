@@ -92,25 +92,25 @@ def get_and_check():
                 ", ".join(get_vaccine_types(pharmacy["location"]["locationId"]))
                 results.append(
                     VaccineRecord(
-                        "yes",
-                        pharmacy["location"]["name"],
-                        pharmacy["location"]["address"]["line1"],
-                        pharmacy["location"]["address"]["city"],
-                        ", ".join(
+                        available="yes",
+                        store_name=pharmacy["location"]["name"],
+                        store_address=pharmacy["location"]["address"]["line1"],
+                        store_city=pharmacy["location"]["address"]["city"],
+                        vaccine_types=", ".join(
                             get_vaccine_types(pharmacy["location"]["locationId"])
                         ),
-                        "https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent",
+                        link="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent",
                     )
                 )
             else:
                 results.append(
                     VaccineRecord(
-                        "no",
-                        pharmacy["location"]["name"],
-                        pharmacy["location"]["address"]["line1"],
-                        pharmacy["location"]["address"]["city"],
-                        "",
-                        "https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent",
+                        available="no",
+                        store_name=pharmacy["location"]["name"],
+                        store_address=pharmacy["location"]["address"]["line1"],
+                        store_city=pharmacy["location"]["address"]["city"],
+                        vaccine_types=None,
+                        link="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent",
                     )
                 )
 

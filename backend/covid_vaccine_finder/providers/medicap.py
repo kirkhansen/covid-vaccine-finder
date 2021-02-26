@@ -74,23 +74,27 @@ def get_and_check():
     for location_id, name in LOCATIONS.items():
         availability = check_availability(location_id)
         if availability:
-            records.append(VaccineRecord(
-                available="yes",
-                store_name=name,
-                store_city=None,
-                store_address=None,
-                link=f"https://hipaa.jotform.com/{location_id}",
-                vaccine_types=None,
-                ))
+            records.append(
+                VaccineRecord(
+                    available="yes",
+                    store_name=name,
+                    store_city=None,
+                    store_address=None,
+                    link=f"https://hipaa.jotform.com/{location_id}",
+                    vaccine_types=None,
+                )
+            )
         else:
-            records.append(VaccineRecord(
-                available="no",
-                store_name=name,
-                store_city=None,
-                store_address=None,
-                link=f"https://hipaa.jotform.com/{location_id}",
-                vaccine_types=None,
-                ))
+            records.append(
+                VaccineRecord(
+                    available="no",
+                    store_name=name,
+                    store_city=None,
+                    store_address=None,
+                    link=f"https://hipaa.jotform.com/{location_id}",
+                    vaccine_types=None,
+                )
+            )
 
     return records
 

@@ -39,22 +39,22 @@ def get_and_check():
             results.append(
                 VaccineRecord(
                     available="no",
-                    store_name="Not provided",
-                    store_address="Not provided",
+                    store_name=None,
+                    store_address=None,
                     store_city=city["city"],
                     link="https://www.cvs.com/immunizations/covid-19-vaccine",
-                    vaccine_types="Not provided",
+                    vaccine_types=None,
                 )
             )
         else:
             results.append(
                 VaccineRecord(
                     available="yes",
-                    store_name="Not provided",
-                    store_address="Not provided",
+                    store_name=None,
+                    store_address=None,
                     store_city=city["city"],
                     link="https://www.cvs.com/immunizations/covid-19-vaccine",
-                    vaccine_types="Not provided",
+                    vaccine_types=None,
                 )
             )
     return results
