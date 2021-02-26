@@ -5,7 +5,7 @@ from itertools import chain
 
 from covid_vaccine_finder.providers import cvs, hyvee, medicap
 
-DATA_FILE = Path(Path(__file__).absolute().parent.parent.parent, "frontend/src/data.json")
+DATA_FILE = Path(Path(__file__).absolute().parent.parent.parent, "frontend/public/data.json")
 
 
 def build_dataset_for_frontend():
