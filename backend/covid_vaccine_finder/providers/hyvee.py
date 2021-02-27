@@ -1,6 +1,8 @@
 import json
 import requests
 
+from covid_vaccine_finder.utils import VaccineRecord
+
 
 LOCATIONS = {
     "Clive": (41.5774667, -93.67753619999999),
@@ -81,36 +83,41 @@ def get_vaccine_types(location_id):
     ]
 
 
-def get_and_check(quiet=True):
-    output = []
+def get_and_check():
+    results = []
     for search_location, coordinates in LOCATIONS.items():
-        if not quiet:
-            output.append("\n")
-            output.append(f"Checking {search_location}...")
-            output.append("---")
-
         response = get_pharmacies_with_vaccine(*coordinates)
         for pharmacy in response:
             if pharmacy["location"]["isCovidVaccineAvailable"]:
-                output.append("\n")
-                output.append("!!! AVAILABLE !!!")
-                output.append(pharmacy["location"]["name"])
-                output.append(pharmacy["location"]["address"]["line1"])
-                output.append(
-                    f"{pharmacy['location']['address']['city']}, {pharmacy['location']['address']['state']}"
+                ", ".join(get_vaccine_types(pharmacy["location"]["locationId"]))
+                results.append(
+                    VaccineRecord(
+                        available="yes",
+                        store_name=pharmacy["location"]["name"],
+                        store_address=pharmacy["location"]["address"]["line1"],
+                        store_city=pharmacy["location"]["address"]["city"],
+                        vaccine_types=", ".join(
+                            get_vaccine_types(pharmacy["location"]["locationId"])
+                        ),
+                        link="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent",
+                    )
                 )
-                output.append(
-                    "Vaccine types: "
-                    + ", ".join(get_vaccine_types(pharmacy["location"]["locationId"]))
+            else:
+                results.append(
+                    VaccineRecord(
+                        available="no",
+                        store_name=pharmacy["location"]["name"],
+                        store_address=pharmacy["location"]["address"]["line1"],
+                        store_city=pharmacy["location"]["address"]["city"],
+                        vaccine_types=None,
+                        link="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent",
+                    )
                 )
-                output.append(
-                    "Go to https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"
-                )
-            elif not quiet:
-                output.append(f"(no) {pharmacy['location']['name']}")
 
-    return output
+    return results
 
 
 if __name__ == "__main__":
-    print("\n".join(get_and_check(quiet=False)))
+    res = get_and_check()
+    for r in res:
+        print(f"({r[0]}) {r[1]}")
