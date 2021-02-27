@@ -1,10 +1,16 @@
 import './App.css';
-import { useState, useEffect } from "react";
+import moment from 'moment'
+import React from "react";
 import JsonTable from "ts-react-json-table";
 
-function App() {
-  const [data,setData] = useState(null);
-  const getData = () => {
+
+class VaccineTable extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {data: []};
+  }
+
+  getData = () => {
     fetch('data.json'
     ,{
       headers : {
@@ -12,21 +18,68 @@ function App() {
         'Accept': 'application/json'
        }
     }
-    )
-      .then(function(response){
+    ).then((response) => {
         return response.json();
-      })
-      .then(function(myJson) {
-        setData(myJson)
-      });
+    }).then((vaccineAvailability) => {
+        this.setState({data: vaccineAvailability});
+    });
+  };
+
+  componentDidMount() {
+      this.getData();
   }
-  useEffect(()=>{
-    getData()
-  }, [])
+
+  render() {
+    return (
+      <JsonTable rows={ this.state.data } />
+    );
+  }
+}
+
+
+class LastUpdated extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {lastUpdated: null};
+  }
+
+  getLastUpdated = () => {
+    fetch('last-updated.json'
+    ,{
+      headers : {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+       }
+    }
+    ).then((response) => {
+        return response.json();
+    }).then((lastUpdated) => {
+        this.setState({
+            lastUpdated: moment.unix(lastUpdated["last_updated"]).format("YYYY-MM-DDTHH:mm:ss")
+        });
+    });
+  };
+
+  componentDidMount() {
+      this.getLastUpdated();
+  }
+
+  render() {
+    return (
+        <div>
+        <h2>Last updated at {this.state.lastUpdated} </h2>
+        </div>
+    );
+  }
+}
+
+
+function App() {
 
   return (
     <div className="App">
-      <JsonTable rows={ data } />
+     <LastUpdated />
+     <VaccineTable />
     </div>
   );
 }

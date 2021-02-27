@@ -1,11 +1,13 @@
 import json
 
+from datetime import datetime, timezone
 from pathlib import Path
 from itertools import chain
 
 from covid_vaccine_finder.providers import cvs, hyvee, medicap
 
 DATA_FILE = Path(Path(__file__).absolute().parent.parent.parent, "frontend/public/data.json")
+LAST_UPDATED_FILE = Path(Path(__file__).absolute().parent.parent.parent, "frontend/public/last-updated.json")
 
 
 def build_dataset_for_frontend():
@@ -15,5 +17,11 @@ def build_dataset_for_frontend():
         json.dump(dict_records, f)
 
 
+def save_last_updated_time():
+    with LAST_UPDATED_FILE.open("w") as f:
+        json.dump({"last_updated": datetime.now(timezone.utc).timestamp()}, f)
+
+
 if __name__ == "__main__":
     build_dataset_for_frontend()
+    save_last_updated_time()
