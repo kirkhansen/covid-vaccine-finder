@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Covid Vaccine Finder",
+  "name": "Central Iowa Covid Vaccine Finder",
   "icons": [
     {
       "src": "favicon.ico",
