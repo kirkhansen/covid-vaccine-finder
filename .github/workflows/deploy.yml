@@ -35,15 +35,21 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: Install Packages
-      run: cd frontend && npm install
     - name: Download vaccine-info
       uses: actions/download-artifact@v2
       with:
         name: vaccine-info
         path: frontend/public/
+    - name: Install Packages
+      run: |
+        ls -lah
+        pwd
+        cd frontend
+        npm install
     - name: Build page
-      run: cd frontend && npm run build
+      run: |
+        cd frontend
+        npm run build
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v3
       with:
