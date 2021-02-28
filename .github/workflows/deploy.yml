@@ -4,18 +4,32 @@ on:
     branches:
       - master
 jobs:
-  deploy:
+  fetch-data:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [12.x]
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-python@v2
       with:
         python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
         architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
-    - run: cd backend && pip install -e . && python3 covid_vaccine_finder/main.py
+    - run: |
+        cd backend
+        pip install -e .
+        python3 covid_vaccine_finder/main.py # Saves *.json files to frontend currently
+    - name: Save data and last updated
+      uses: actions/upload-artifact@v2
+      with:
+        name: vaccine-info
+        path: |
+          frontend/public/*.json
+  deploy:
+    needs: fetch-data
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+    - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
@@ -24,6 +38,10 @@ jobs:
       run: cd frontend && npm install
     - name: Build page
       run: cd frontend && npm run build
+    - name: Download a single artifact
+      uses: actions/download-artifact@v2
+      with:
+        name: vaccine-info
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v3
       with:
