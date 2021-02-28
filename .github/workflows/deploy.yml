@@ -11,6 +11,11 @@ jobs:
         node-version: [12.x]
     steps:
     - uses: actions/checkout@v1
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+        architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
+    - run: cd backend && pip install -e . && python3 covid_vaccine_finder/main.py
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
