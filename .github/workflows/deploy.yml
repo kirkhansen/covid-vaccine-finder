@@ -21,7 +21,8 @@ jobs:
       with:
         name: vaccine-info
         path: |
-          frontend/public/*.json
+          frontend/public/data.json
+          frontend/public/last-updated.json
   deploy:
     needs: fetch-data
     runs-on: ubuntu-latest
@@ -40,6 +41,7 @@ jobs:
       uses: actions/download-artifact@v2
       with:
         name: vaccine-info
+        path: frontend/public/
     - name: Build page
       run: cd frontend && npm run build
     - name: Deploy to gh-pages
