@@ -1,1 +1,4 @@
 requests
+pandas
+html5lib
+BeautifulSoup4
