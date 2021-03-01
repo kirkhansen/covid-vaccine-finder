@@ -1,86 +1,33 @@
-import './App.css';
-import moment from 'moment'
+import "./App.css";
+import { VaccineTable } from "./components/VaccineTable";
+import { LastUpdated } from "./components/LastUpdated";
+import Alert from "@material-ui/lab/Alert";
+import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
+import { CssBaseline, useMediaQuery } from "@material-ui/core";
 import React from "react";
-import JsonTable from "ts-react-json-table";
-
-
-class VaccineTable extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {data: []};
-  }
-
-  getData = () => {
-    fetch('data.json'
-    ,{
-      headers : {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-       }
-    }
-    ).then((response) => {
-        return response.json();
-    }).then((vaccineAvailability) => {
-        this.setState({data: vaccineAvailability});
-    });
-  };
-
-  componentDidMount() {
-      this.getData();
-  }
-
-  render() {
-    return (
-      <JsonTable rows={ this.state.data } />
-    );
-  }
-}
-
-
-class LastUpdated extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {lastUpdated: null};
-  }
-
-  getLastUpdated = () => {
-    fetch('last-updated.json'
-    ,{
-      headers : {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-       }
-    }
-    ).then((response) => {
-        return response.json();
-    }).then((lastUpdated) => {
-        this.setState({
-            lastUpdated: moment.unix(lastUpdated["last_updated"]).format("YYYY-MM-DDTHH:mm:ss")
-        });
-    });
-  };
-
-  componentDidMount() {
-      this.getLastUpdated();
-  }
-
-  render() {
-    return (
-        <div>
-        <h2>Last updated at {this.state.lastUpdated} </h2>
-        </div>
-    );
-  }
-}
-
 
 function App() {
+  const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
+
+  const theme = React.useMemo(
+    () =>
+      createMuiTheme({
+        palette: {
+          type: prefersDarkMode ? "dark" : "light",
+        },
+      }),
+    [prefersDarkMode]
+  );
 
   return (
-    <div className="App">
-     <LastUpdated />
-     <VaccineTable />
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="App">
+      <CssBaseline />
+      <LastUpdated />
+      <Alert severity="info">Icons are clickable; click to be redirected to provider's website</Alert>
+      <VaccineTable />
+      </div>
+    </ThemeProvider>
   );
 }
 
