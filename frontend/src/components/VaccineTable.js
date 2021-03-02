@@ -31,6 +31,12 @@ const DATA_COLUMNS = [
     valueGetter: (params) => `${params.value}, ${params.getValue("store_city")}`,
   },
   { field: "store_city", headerName: "Store City", flex: 0.25, hide: true },
+  {
+    field: "vaccine_types",
+    headerName: "Vaccine Types",
+    flex: 0.25,
+    valueGetter: (params) => (params.value !== null) ? `${params.value}` : "N/A",
+  },
   { field: "link", headerName: "Link", flex: 1, hide: true },
 ];
 const SORT_MODEL = [
