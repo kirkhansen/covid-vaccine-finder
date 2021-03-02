@@ -6,5 +6,5 @@ setup(
     name="covid-vaccine-finder",
     version="1.0",
     description="",
-    install_requires=["requests", "pandas", "html5lib", "BeautifulSoup4"]
+    install_requires=["requests", "pandas", "html5lib", "BeautifulSoup4", "rfeed"],
 )

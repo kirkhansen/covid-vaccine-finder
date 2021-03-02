@@ -2,3 +2,4 @@ requests
 pandas
 html5lib
 BeautifulSoup4
+rfeed

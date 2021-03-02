@@ -26,6 +26,7 @@ jobs:
         path: |
           frontend/public/data.json
           frontend/public/last-updated.json
+          frontend/public/feed.xml
   deploy:
     needs: fetch-data
     runs-on: ubuntu-latest
