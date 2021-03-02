@@ -1,2 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Covid Vaccine Finder Updates</title><link>https://kirkhansen.github.io/covid-vaccine-finder/</link><description>Feed produces new records when available vaccine is detected.</description><language>en-US</language><lastBuildDate>Tue, 02 Mar 2021 11:33:08 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs></channel></rss>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Covid Vaccine Finder Updates</title><link>https://kirkhansen.github.io/covid-vaccine-finder/</link><description>Feed produces new records when available vaccine is detected.</description><language>en-US</language><lastBuildDate>Tue, 02 Mar 2021 12:11:41 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>Vaccine Available</title><description>
+        Vaccine availble for None : 52002 : Dubuque
+        See https://www.walgreens.com/findcare/vaccination/covid-19/location-screening to attempt to make an appointment.
+        </description><pubDate>Tue, 02 Mar 2021 12:11:41 GMT</pubDate><guid isPermaLink="false">None52002Dubuque</guid></item><item><title>Vaccine Available</title><description>
+        Vaccine availble for None : 52601 : Burlington
+        See https://www.walgreens.com/findcare/vaccination/covid-19/location-screening to attempt to make an appointment.
+        </description><pubDate>Tue, 02 Mar 2021 12:11:41 GMT</pubDate><guid isPermaLink="false">None52601Burlington</guid></item><item><title>Vaccine Available</title><description>
+        Vaccine availble for None : 52803 : Davenport
+        See https://www.walgreens.com/findcare/vaccination/covid-19/location-screening to attempt to make an appointment.
+        </description><pubDate>Tue, 02 Mar 2021 12:11:41 GMT</pubDate><guid isPermaLink="false">None52803Davenport</guid></item><item><title>Vaccine Available</title><description>
+        Vaccine availble for None : 50023 : Ankeny
+        See https://www.walgreens.com/findcare/vaccination/covid-19/location-screening to attempt to make an appointment.
+        </description><pubDate>Tue, 02 Mar 2021 12:11:41 GMT</pubDate><guid isPermaLink="false">None50023Ankeny</guid></item><item><title>Vaccine Available</title><description>
+        Vaccine availble for None : 50125 : Indianola
+        See https://www.walgreens.com/findcare/vaccination/covid-19/location-screening to attempt to make an appointment.
+        </description><pubDate>Tue, 02 Mar 2021 12:11:41 GMT</pubDate><guid isPermaLink="false">None50125Indianola</guid></item><item><title>Vaccine Available</title><description>
+        Vaccine availble for None : 50613 : Cedar Falls
+        See https://www.walgreens.com/findcare/vaccination/covid-19/location-screening to attempt to make an appointment.
+        </description><pubDate>Tue, 02 Mar 2021 12:11:41 GMT</pubDate><guid isPermaLink="false">None50613Cedar Falls</guid></item><item><title>Vaccine Available</title><description>
+        Vaccine availble for None : 52722 : Bettendorf
+        See https://www.walgreens.com/findcare/vaccination/covid-19/location-screening to attempt to make an appointment.
+        </description><pubDate>Tue, 02 Mar 2021 12:11:41 GMT</pubDate><guid isPermaLink="false">None52722Bettendorf</guid></item><item><title>Vaccine Available</title><description>
+        Vaccine availble for None : 50131 : Johnston
+        See https://www.walgreens.com/findcare/vaccination/covid-19/location-screening to attempt to make an appointment.
+        </description><pubDate>Tue, 02 Mar 2021 12:11:41 GMT</pubDate><guid isPermaLink="false">None50131Johnston</guid></item><item><title>Vaccine Available</title><description>
+        Vaccine availble for None : 50320 : Des Moines
+        See https://www.walgreens.com/findcare/vaccination/covid-19/location-screening to attempt to make an appointment.
+        </description><pubDate>Tue, 02 Mar 2021 12:11:41 GMT</pubDate><guid isPermaLink="false">None50320Des Moines</guid></item><item><title>Vaccine Available</title><description>
+        Vaccine availble for None : 50703 : Waterloo
+        See https://www.walgreens.com/findcare/vaccination/covid-19/location-screening to attempt to make an appointment.
+        </description><pubDate>Tue, 02 Mar 2021 12:11:41 GMT</pubDate><guid isPermaLink="false">None50703Waterloo</guid></item><item><title>Vaccine Available</title><description>
+        Vaccine availble for None : 50677 : Waverly
+        See https://www.walgreens.com/findcare/vaccination/covid-19/location-screening to attempt to make an appointment.
+        </description><pubDate>Tue, 02 Mar 2021 12:11:41 GMT</pubDate><guid isPermaLink="false">None50677Waverly</guid></item><item><title>Vaccine Available</title><description>
+        Vaccine availble for None : 50325 : Clive
+        See https://www.walgreens.com/findcare/vaccination/covid-19/location-screening to attempt to make an appointment.
+        </description><pubDate>Tue, 02 Mar 2021 12:11:41 GMT</pubDate><guid isPermaLink="false">None50325Clive</guid></item><item><title>Vaccine Available</title><description>
+        Vaccine availble for None : 52761 : Muscatine
+        See https://www.walgreens.com/findcare/vaccination/covid-19/location-screening to attempt to make an appointment.
+        </description><pubDate>Tue, 02 Mar 2021 12:11:41 GMT</pubDate><guid isPermaLink="false">None52761Muscatine</guid></item><item><title>Vaccine Available</title><description>
+        Vaccine availble for None : 50322 : Urbandale
+        See https://www.walgreens.com/findcare/vaccination/covid-19/location-screening to attempt to make an appointment.
+        </description><pubDate>Tue, 02 Mar 2021 12:11:41 GMT</pubDate><guid isPermaLink="false">None50322Urbandale</guid></item><item><title>Vaccine Available</title><description>
+        Vaccine availble for None : 51101 : Sioux City
+        See https://www.walgreens.com/findcare/vaccination/covid-19/location-screening to attempt to make an appointment.
+        </description><pubDate>Tue, 02 Mar 2021 12:11:41 GMT</pubDate><guid isPermaLink="false">None51101Sioux City</guid></item><item><title>Vaccine Available</title><description>
+        Vaccine availble for None : 50266 : West Des Moines
+        See https://www.walgreens.com/findcare/vaccination/covid-19/location-screening to attempt to make an appointment.
+        </description><pubDate>Tue, 02 Mar 2021 12:11:41 GMT</pubDate><guid isPermaLink="false">None50266West Des Moines</guid></item><item><title>Vaccine Available</title><description>
+        Vaccine availble for None : 52627 : Fort Madison
+        See https://www.walgreens.com/findcare/vaccination/covid-19/location-screening to attempt to make an appointment.
+        </description><pubDate>Tue, 02 Mar 2021 12:11:41 GMT</pubDate><guid isPermaLink="false">None52627Fort Madison</guid></item><item><title>Vaccine Available</title><description>
+        Vaccine availble for None : 50009 : Altoona
+        See https://www.walgreens.com/findcare/vaccination/covid-19/location-screening to attempt to make an appointment.
+        </description><pubDate>Tue, 02 Mar 2021 12:11:41 GMT</pubDate><guid isPermaLink="false">None50009Altoona</guid></item></channel></rss>
