@@ -13,8 +13,23 @@ def generate_rss_feed(records):
     items = []
     for record in available_records_generator(records):
         description = f"""
-        Vaccine availble for {record.store_name} : {record.store_address} : {record.store_city}
-        See {record.link} to attempt to make an appointment.
+        <h1>Vaccine availble</h1>
+        <table>
+          <tr>
+            <th>Provider</th>
+            <th>Store Name</th>
+            <th>Store Address</th>
+            <th>Store City</th>
+            <th>Appointment Link</th>
+          </tr>
+          <tr>
+            <td>{record.provider}</td>
+            <td>{record.store_name}</td>
+            <td>{record.store_address}</td>
+            <td>{record.store_city}</td>
+            <td><a href="{record.link}">{record.link}</a></td>
+          </tr>
+        </table>
         """
 
         item = Item(
