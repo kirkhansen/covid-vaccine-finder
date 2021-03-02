@@ -38,6 +38,7 @@ def get_and_check():
                     store_city=city["city"],
                     link="https://www.cvs.com/immunizations/covid-19-vaccine",
                     vaccine_types=None,
+                    provider="CVS",
                 )
             )
         else:
@@ -49,6 +50,7 @@ def get_and_check():
                     store_city=city["city"],
                     link="https://www.cvs.com/immunizations/covid-19-vaccine",
                     vaccine_types=None,
+                    provider="CVS",
                 )
             )
     return results

@@ -22,6 +22,7 @@ const DATA_COLUMNS = [
       </Link>
     ),
   },
+  { field: "provider", headerName: "Provider", flex: 0.25 },
   { field: "store_name", headerName: "Store Name", flex: 0.25 },
   {
     field: "store_address",

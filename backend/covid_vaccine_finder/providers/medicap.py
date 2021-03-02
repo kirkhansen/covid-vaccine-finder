@@ -82,6 +82,7 @@ def get_and_check():
                     store_address=None,
                     link=f"https://hipaa.jotform.com/{location_id}",
                     vaccine_types=None,
+                    provider="Medicap",
                 )
             )
         else:
@@ -93,6 +94,7 @@ def get_and_check():
                     store_address=None,
                     link=f"https://hipaa.jotform.com/{location_id}",
                     vaccine_types=None,
+                    provider="Medicap",
                 )
             )
 

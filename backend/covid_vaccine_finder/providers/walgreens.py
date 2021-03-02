@@ -20,6 +20,7 @@ def get_and_check():
             store_address=record["Zip"].split()[0],
             link="https://www.walgreens.com/findcare/vaccination/covid-19/location-screening",
             vaccine_types=None,
+            provider="Walgreens",
         )
         for record in raw_records
     ]

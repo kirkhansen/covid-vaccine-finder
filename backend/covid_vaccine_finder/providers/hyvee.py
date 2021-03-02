@@ -100,6 +100,7 @@ def get_and_check():
                             get_vaccine_types(pharmacy["location"]["locationId"])
                         ),
                         link="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent",
+                        provider="Hy-Vee",
                     )
                 )
             else:
@@ -111,6 +112,7 @@ def get_and_check():
                         store_city=pharmacy["location"]["address"]["city"],
                         vaccine_types=None,
                         link="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent",
+                        provider="Hy-Vee",
                     )
                 )
 
