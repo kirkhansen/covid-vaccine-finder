@@ -29,7 +29,7 @@ def generate_rss_feed(records):
         items.append(item)
 
     feed = Feed(
-        title="Covid Vaccine Finder RSS Feed",
+        title="Covid Vaccine Finder Updates",
         link="https://kirkhansen.github.io/covid-vaccine-finder/",
         description="Feed produces new records when available vaccine is detected.",
         language="en-US",
