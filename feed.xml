@@ -1,2 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Covid Vaccine Finder Updates</title><link>https://kirkhansen.github.io/covid-vaccine-finder/</link><description>Feed produces new records when available vaccine is detected.</description><language>en-US</language><lastBuildDate>Mon, 08 Mar 2021 22:11:28 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs></channel></rss>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Covid Vaccine Finder Updates</title><link>https://kirkhansen.github.io/covid-vaccine-finder/</link><description>Feed produces new records when available vaccine is detected.</description><language>en-US</language><lastBuildDate>Mon, 08 Mar 2021 22:44:30 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>Vaccine Available</title><description>
+        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
+        &lt;table&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Provider&lt;/th&gt;
+            &lt;th&gt;Store Name&lt;/th&gt;
+            &lt;th&gt;Store Address&lt;/th&gt;
+            &lt;th&gt;Store City&lt;/th&gt;
+            &lt;th&gt;Appointment Link&lt;/th&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Walgreens&lt;/td&gt;
+            &lt;td&gt;None&lt;/td&gt;
+            &lt;td&gt;50613&lt;/td&gt;
+            &lt;td&gt;Cedar Falls&lt;/td&gt;
+            &lt;td&gt;&lt;a href="https://www.walgreens.com/findcare/vaccination/covid-19/location-screening"&gt;https://www.walgreens.com/findcare/vaccination/covid-19/location-screening&lt;/a&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+        </description><pubDate>Mon, 08 Mar 2021 22:44:30 GMT</pubDate><guid isPermaLink="false">None50613Cedar Falls</guid></item><item><title>Vaccine Available</title><description>
+        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
+        &lt;table&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Provider&lt;/th&gt;
+            &lt;th&gt;Store Name&lt;/th&gt;
+            &lt;th&gt;Store Address&lt;/th&gt;
+            &lt;th&gt;Store City&lt;/th&gt;
+            &lt;th&gt;Appointment Link&lt;/th&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Walgreens&lt;/td&gt;
+            &lt;td&gt;None&lt;/td&gt;
+            &lt;td&gt;50703&lt;/td&gt;
+            &lt;td&gt;Waterloo&lt;/td&gt;
+            &lt;td&gt;&lt;a href="https://www.walgreens.com/findcare/vaccination/covid-19/location-screening"&gt;https://www.walgreens.com/findcare/vaccination/covid-19/location-screening&lt;/a&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+        </description><pubDate>Mon, 08 Mar 2021 22:44:30 GMT</pubDate><guid isPermaLink="false">None50703Waterloo</guid></item><item><title>Vaccine Available</title><description>
+        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
+        &lt;table&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Provider&lt;/th&gt;
+            &lt;th&gt;Store Name&lt;/th&gt;
+            &lt;th&gt;Store Address&lt;/th&gt;
+            &lt;th&gt;Store City&lt;/th&gt;
+            &lt;th&gt;Appointment Link&lt;/th&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Walgreens&lt;/td&gt;
+            &lt;td&gt;None&lt;/td&gt;
+            &lt;td&gt;50677&lt;/td&gt;
+            &lt;td&gt;Waverly&lt;/td&gt;
+            &lt;td&gt;&lt;a href="https://www.walgreens.com/findcare/vaccination/covid-19/location-screening"&gt;https://www.walgreens.com/findcare/vaccination/covid-19/location-screening&lt;/a&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+        </description><pubDate>Mon, 08 Mar 2021 22:44:30 GMT</pubDate><guid isPermaLink="false">None50677Waverly</guid></item></channel></rss>
