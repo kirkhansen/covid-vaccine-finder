@@ -1,2 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Covid Vaccine Finder Updates</title><link>https://kirkhansen.github.io/covid-vaccine-finder/</link><description>Feed produces new records when available vaccine is detected.</description><language>en-US</language><lastBuildDate>Mon, 08 Mar 2021 13:38:41 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs></channel></rss>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Covid Vaccine Finder Updates</title><link>https://kirkhansen.github.io/covid-vaccine-finder/</link><description>Feed produces new records when available vaccine is detected.</description><language>en-US</language><lastBuildDate>Mon, 08 Mar 2021 14:10:56 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>Vaccine Available</title><description>
+        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
+        &lt;table&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Provider&lt;/th&gt;
+            &lt;th&gt;Store Name&lt;/th&gt;
+            &lt;th&gt;Store Address&lt;/th&gt;
+            &lt;th&gt;Store City&lt;/th&gt;
+            &lt;th&gt;Appointment Link&lt;/th&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Hy-Vee&lt;/td&gt;
+            &lt;td&gt;Winterset&lt;/td&gt;
+            &lt;td&gt;923 N 1st St&lt;/td&gt;
+            &lt;td&gt;Winterset&lt;/td&gt;
+            &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+        </description><pubDate>Mon, 08 Mar 2021 14:10:56 GMT</pubDate><guid isPermaLink="false">Winterset923 N 1st StWinterset</guid></item><item><title>Vaccine Available</title><description>
+        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
+        &lt;table&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Provider&lt;/th&gt;
+            &lt;th&gt;Store Name&lt;/th&gt;
+            &lt;th&gt;Store Address&lt;/th&gt;
+            &lt;th&gt;Store City&lt;/th&gt;
+            &lt;th&gt;Appointment Link&lt;/th&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Hy-Vee&lt;/td&gt;
+            &lt;td&gt;Osceola&lt;/td&gt;
+            &lt;td&gt;510 W McLane St&lt;/td&gt;
+            &lt;td&gt;Osceola&lt;/td&gt;
+            &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+        </description><pubDate>Mon, 08 Mar 2021 14:10:56 GMT</pubDate><guid isPermaLink="false">Osceola510 W McLane StOsceola</guid></item><item><title>Vaccine Available</title><description>
+        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
+        &lt;table&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Provider&lt;/th&gt;
+            &lt;th&gt;Store Name&lt;/th&gt;
+            &lt;th&gt;Store Address&lt;/th&gt;
+            &lt;th&gt;Store City&lt;/th&gt;
+            &lt;th&gt;Appointment Link&lt;/th&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Hy-Vee&lt;/td&gt;
+            &lt;td&gt;Marshalltown&lt;/td&gt;
+            &lt;td&gt;802 S Center St&lt;/td&gt;
+            &lt;td&gt;Marshalltown&lt;/td&gt;
+            &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+        </description><pubDate>Mon, 08 Mar 2021 14:10:56 GMT</pubDate><guid isPermaLink="false">Marshalltown802 S Center StMarshalltown</guid></item></channel></rss>
