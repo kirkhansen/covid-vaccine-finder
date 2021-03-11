@@ -17,6 +17,9 @@ HEADERS = {
     "Pragma": "no-cache",
     "Cache-Control": "no-cache",
 }
+# Might be able to lump imzData with two records for each vaccine availability
+# but the current response payload doesn't tell me which dose is available
+# so i'll stick with two requests for now
 REQUEST_DATA = {
     "requestMetaData": {
         "appName": "CVS_WEB",
@@ -49,12 +52,14 @@ URL = "https://www.cvs.com/Services/ICEAGPV1/immunization/1.0.0/getIMZStores"
 def get_availability():
     # Builds a dict of both first and second dose availability
 
-    results = {}
+    availability = {}
     allocationTypeMap = {"1": "first", "3": "second"}
 
     for allocationType in ("1", "3"):  # 1 is first dose, 3 is second dose
         request_data = REQUEST_DATA.copy()
-        request_data["requestPayloadData"]["imzData"]["allocationType"] = allocationType
+        request_data["requestPayloadData"]["imzData"][0][
+            "allocationType"
+        ] = allocationType
         res = requests.post(
             URL,
             headers=HEADERS,
@@ -62,20 +67,21 @@ def get_availability():
         )
         data = res.json()
         payload = data.get("responsePayloadData", {"locations": []})
+        print(payload["locations"])
 
         for loc in payload["locations"]:
             store_num = loc["StoreNumber"]
-            if not results[store_num]:
-                results[store_num] = loc
-            if results[store_num].get("doses_available"):
-                results[store_num]["doses_available"].append(
+            if not store_num in availability:
+                availability[store_num] = loc
+            if availability[store_num].get("doses_available"):
+                availability[store_num]["doses_available"].append(
                     allocationTypeMap[allocationType]
                 )
             else:
-                results[store_num]["doses_available"] = [
+                availability[store_num]["doses_available"] = [
                     allocationTypeMap[allocationType]
                 ]
-    return results
+    return availability
 
 
 def get_and_check():
@@ -99,6 +105,5 @@ def get_and_check():
 
 if __name__ == "__main__":
     res = get_and_check()
-    get_availability()
     for r in res:
         print(f"({r[0]}) {r.store_city}")
