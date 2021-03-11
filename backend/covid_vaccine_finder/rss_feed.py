@@ -36,7 +36,7 @@ def generate_rss_feed(records):
             title="Vaccine Available",
             description=description,
             guid=Guid(
-                f"{record.store_name}{record.store_address}{record.store_city}",
+                f"{record.store_name}{record.store_address}{record.store_city}{str(now_utc.date())}",
                 isPermaLink=False,
             ),
             pubDate=now_utc,
@@ -74,6 +74,6 @@ if __name__ == "__main__":
             store_address="test no street",
             link="test.com",
             vaccine_types=None,
-        )
+        ),
     ]
     print(generate_rss_feed(records).rss())
