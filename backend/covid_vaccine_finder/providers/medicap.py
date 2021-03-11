@@ -83,6 +83,7 @@ def get_and_check():
                     link=f"https://hipaa.jotform.com/{location_id}",
                     vaccine_types=None,
                     provider="Medicap",
+                    doses_available=None,
                 )
             )
         else:
@@ -95,6 +96,7 @@ def get_and_check():
                     link=f"https://hipaa.jotform.com/{location_id}",
                     vaccine_types=None,
                     provider="Medicap",
+                    doses_available=None,
                 )
             )
 

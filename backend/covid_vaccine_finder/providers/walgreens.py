@@ -21,6 +21,7 @@ def get_and_check():
             link="https://www.walgreens.com/findcare/vaccination/covid-19/location-screening",
             vaccine_types=None,
             provider="Walgreens",
+            doses_available=None,
         )
         for record in raw_records
     ]

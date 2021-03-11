@@ -19,12 +19,14 @@ RSS_FEED_FILE = Path(
 
 
 def build_dataset_for_frontend():
-    results = list(chain(
-        hyvee.get_and_check(),
-        medicap.get_and_check(),
-        cvs.get_and_check(),
-        walgreens.get_and_check(),
-    ))
+    results = list(
+        chain(
+            hyvee.get_and_check(),
+            medicap.get_and_check(),
+            cvs.get_and_check(),
+            walgreens.get_and_check(),
+        )
+    )
     dict_records = [record._asdict() for record in results]
     with DATA_FILE.open("w") as f:
         json.dump(dict_records, f)

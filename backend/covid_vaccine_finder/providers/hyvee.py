@@ -101,6 +101,7 @@ def get_and_check():
                         ),
                         link="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent",
                         provider="Hy-Vee",
+                        doses_available=None,
                     )
                 )
             else:
@@ -113,6 +114,7 @@ def get_and_check():
                         vaccine_types=None,
                         link="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent",
                         provider="Hy-Vee",
+                        doses_available=None,
                     )
                 )
 
