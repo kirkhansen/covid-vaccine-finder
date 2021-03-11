@@ -18,31 +18,31 @@ HEADERS = {
     "Cache-Control": "no-cache",
 }
 REQUEST_DATA = {
-        "requestMetaData": {
-            "appName": "CVS_WEB",
-            "lineOfBusiness": "RETAIL",
-            "channelName": "WEB",
-            "deviceType": "DESKTOP",
-            "deviceToken": "7777",
-            "apiKey": "a2ff75c6-2da7-4299-929d-d670d827ab4a",
-            "source": "ICE_WEB",
-            "securityType": "apiKey",
-            "responseFormat": "JSON",
-            "type": "cn-dep",
-        },
-        "requestPayloadData": {
-            "selectedImmunization": ["CVD"],
-            "distanceInMiles": 35,
-            "imzData": [
-                {
-                    "imzType": "CVD",
-                    "ndc": ["59267100002", "59267100003", "59676058015", "80777027399"],
-                    "allocationType": "1",
-                }
-            ],
-            "searchCriteria": {"addressLine": "50111"},
-        },
-    }
+    "requestMetaData": {
+        "appName": "CVS_WEB",
+        "lineOfBusiness": "RETAIL",
+        "channelName": "WEB",
+        "deviceType": "DESKTOP",
+        "deviceToken": "7777",
+        "apiKey": "a2ff75c6-2da7-4299-929d-d670d827ab4a",
+        "source": "ICE_WEB",
+        "securityType": "apiKey",
+        "responseFormat": "JSON",
+        "type": "cn-dep",
+    },
+    "requestPayloadData": {
+        "selectedImmunization": ["CVD"],
+        "distanceInMiles": 35,
+        "imzData": [
+            {
+                "imzType": "CVD",
+                "ndc": ["59267100002", "59267100003", "59676058015", "80777027399"],
+                "allocationType": "1",
+            }
+        ],
+        "searchCriteria": {"addressLine": "50111"},
+    },
+}
 URL = "https://www.cvs.com/Services/ICEAGPV1/immunization/1.0.0/getIMZStores"
 
 
@@ -52,7 +52,7 @@ def get_availability():
     results = {}
     allocationTypeMap = {"1": "first", "3": "second"}
 
-    for allocationType in ("1", "3"): # 1 is first dose, 3 is second dose
+    for allocationType in ("1", "3"):  # 1 is first dose, 3 is second dose
         request_data = REQUEST_DATA.copy()
         request_data["requestPayloadData"]["imzData"]["allocationType"] = allocationType
         res = requests.post(
@@ -68,9 +68,13 @@ def get_availability():
             if not results[store_num]:
                 results[store_num] = loc
             if results[store_num].get("doses_available"):
-                results[store_num]["doses_available"].append(allocationTypeMap[allocationType])
+                results[store_num]["doses_available"].append(
+                    allocationTypeMap[allocationType]
+                )
             else:
-                results[store_num]["doses_available"] = [allocationTypeMap[allocationType]]
+                results[store_num]["doses_available"] = [
+                    allocationTypeMap[allocationType]
+                ]
     return results
 
 
