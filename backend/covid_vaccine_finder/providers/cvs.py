@@ -67,7 +67,6 @@ def get_availability():
         )
         data = res.json()
         payload = data.get("responsePayloadData", {"locations": []})
-        print(payload["locations"])
 
         for loc in payload["locations"]:
             store_num = loc["StoreNumber"]
