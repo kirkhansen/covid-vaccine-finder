@@ -26,7 +26,8 @@ function App() {
         <CssBaseline />
         <LastUpdated />
         <Alert severity="info">
-          <RssFeed /> Updates published when available vacccine is detected
+          <RssFeed /> Updates published via RSS when available vacccine is detected. Data aquasition is scheduled to run
+          every half hour.
         </Alert>
         <Alert severity="info">Icons are clickable; click to be redirected to provider's website</Alert>
         <VaccineTable />
@@ -37,9 +38,9 @@ function App() {
           <a href="https://github.com/kirkhansen/covid-vaccine-finder/issues/new"> making an issue.</a>
         </Alert>
         <Alert severity="warning">
-          These data are collected via web scraping from various sources and may be out of date or inaccurate.
-          It's also not officially supported by any of the above providers. Please continue to check with all your
-          providers for appointment availability.
+          These data are collected via web scraping from various sources and may be out of date or inaccurate. It's also
+          not officially supported by any of the above providers. Please continue to check with all your providers for
+          appointment availability.
         </Alert>
       </footer>
     </ThemeProvider>
