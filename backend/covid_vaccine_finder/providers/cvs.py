@@ -93,7 +93,7 @@ def get_and_check():
                 store_name=loc["StoreNumber"],
                 store_address=loc["addressLine"],
                 store_city=loc["addressCityDescriptionText"],
-                link="https://www.cvs.com/immunizations/covid-19-vaccine",
+                link="https://www.cvs.com/vaccine/intake/store/cvd-schedule?icid=covidvaccine-hb-schedule",
                 vaccine_types=loc["mfrName"],
                 provider="CVS",
                 doses_available=",".join(loc["doses_available"]),

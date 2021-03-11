@@ -23,12 +23,25 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
-      <CssBaseline />
-      <LastUpdated />
-      <Alert severity="info"><RssFeed /> Updates published when available vacccine is detected</Alert>
-      <Alert severity="info">Icons are clickable; click to be redirected to provider's website</Alert>
-      <VaccineTable />
+        <CssBaseline />
+        <LastUpdated />
+        <Alert severity="info">
+          <RssFeed /> Updates published when available vacccine is detected
+        </Alert>
+        <Alert severity="info">Icons are clickable; click to be redirected to provider's website</Alert>
+        <VaccineTable />
       </div>
+      <footer>
+        <Alert severity="info">
+          Find a bug? Contact me by
+          <a href="https://github.com/kirkhansen/covid-vaccine-finder/issues/new"> making an issue.</a>
+        </Alert>
+        <Alert severity="warning">
+          These data are collected via web scraping from various sources and may be out of date or inaccurate.
+          It's also not officially supported by any of the above providers. Please continue to check with all your
+          providers for appointment availability.
+        </Alert>
+      </footer>
     </ThemeProvider>
   );
 }

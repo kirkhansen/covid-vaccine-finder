@@ -35,13 +35,13 @@ const DATA_COLUMNS = [
     field: "vaccine_types",
     headerName: "Vaccine Types",
     flex: 0.25,
-    valueGetter: (params) => (params.value !== null) ? `${params.value}` : "N/A",
+    valueGetter: (params) => (params.value !== null ? `${params.value}` : "N/A"),
   },
   {
     field: "doses_available",
     headerName: "Doses Available",
     flex: 0.25,
-    valueGetter: (params) => (params.value !== null) ? `${params.value}` : "N/A",
+    valueGetter: (params) => (params.value !== null ? `${params.value}` : "N/A"),
   },
   { field: "link", headerName: "Link", flex: 1, hide: true },
 ];
