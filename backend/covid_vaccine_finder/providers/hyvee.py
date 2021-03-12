@@ -10,6 +10,52 @@ LOCATIONS = {
 }
 
 
+def get_vaccine_events():
+    data = json.dumps(
+        {
+            "operationName": "GetActivePublicCovidVaccineEvents",
+            "variables": {},
+            "query": (
+                "query GetActivePublicCovidVaccineEvents {\n"
+                "    getActiveCovidVaccineEvents(where: {isPrivate: false}) {\n"
+                "    covidVaccineEligibilityTerms\n"
+                "    covidVaccineEventId\n"
+                "    locationId\n"
+                "    name\n"
+                "    reservationStartDate\n"
+                "    reservationEndDate\n"
+                "    allowSecondTimeSlotReservation\n"
+                "    availability {\n"
+                "        covidVaccineManufacturerId\n"
+                "        manufacturerName\n"
+                "        hasAvailability\n"
+                "        isSingleDose\n"
+                "        __typename\n"
+                "    }\n"
+                "    details\n"
+                "    phoneNumber\n"
+                "    address {\n"
+                "        addressLine1\n"
+                "        addressLine2\n"
+                "        city\n"
+                "        state\n"
+                "        zip\n"
+                "        __typename\n"
+                "        }\n"
+                "        __typename\n"
+                "    }\n"
+                "}\n"
+            ),
+        }
+    )
+    response = requests.post(
+        "https://www.hy-vee.com/my-pharmacy/api/graphql",
+        data=data,
+    )
+    res = response.json()["data"]["getActiveCovidVaccineEvents"]
+    return res
+
+
 def get_pharmacies_with_vaccine(lat, lon):
     response = requests.post(
         "https://www.hy-vee.com/my-pharmacy/api/graphql",
@@ -84,6 +130,8 @@ def get_vaccine_types(location_id):
 
 
 def get_and_check():
+    # TODO: this is getting a little gross. might be better to move this record building logic, or
+    # have each response generator function here return the same types of objects
     results = []
     for search_location, coordinates in LOCATIONS.items():
         response = get_pharmacies_with_vaccine(*coordinates)
@@ -117,6 +165,27 @@ def get_and_check():
                         doses_available=None,
                     )
                 )
+    # Add in events
+    # TODO: May need to add in some filters for this to avoid out of state events
+    for event in get_vaccine_events():
+        if any(a["hasAvailability"] for a in event["availability"]):
+            vaccine_types = (
+                m["manufacturerName"]
+                for m in event["availability"]
+                if m["hasAvailability"]
+            )
+            results.append(
+                VaccineRecord(
+                    available="yes",
+                    store_name=f"Event: {event['name']}",
+                    store_address=event["address"]["addressLine1"],
+                    store_city=event["address"]["city"],
+                    vaccine_types=", ".join(vaccine_types),
+                    link="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent",
+                    provider="Hy-Vee",
+                    doses_available=None,
+                )
+            )
 
     return results
 
