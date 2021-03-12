@@ -42,6 +42,7 @@ function App() {
           not officially supported by any of the above providers. Please continue to check with all your providers for
           appointment availability.
         </Alert>
+        <a href="https://www.buymeacoffee.com/kirkhansen" target="_blank" rel="noreferrer"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-blue.png" alt="Buy Me A Coffee" style={{height: "45px", width: "168px"}}/></a>
       </footer>
     </ThemeProvider>
   );
