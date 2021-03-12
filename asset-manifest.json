@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/covid-vaccine-finder/static/css/main.145d0588.chunk.css",
-    "main.js": "/covid-vaccine-finder/static/js/main.15c55f50.chunk.js",
-    "main.js.map": "/covid-vaccine-finder/static/js/main.15c55f50.chunk.js.map",
+    "main.js": "/covid-vaccine-finder/static/js/main.5f3d5089.chunk.js",
+    "main.js.map": "/covid-vaccine-finder/static/js/main.5f3d5089.chunk.js.map",
     "runtime-main.js": "/covid-vaccine-finder/static/js/runtime-main.8960bd83.js",
     "runtime-main.js.map": "/covid-vaccine-finder/static/js/runtime-main.8960bd83.js.map",
-    "static/js/2.fd2be1f3.chunk.js": "/covid-vaccine-finder/static/js/2.fd2be1f3.chunk.js",
-    "static/js/2.fd2be1f3.chunk.js.map": "/covid-vaccine-finder/static/js/2.fd2be1f3.chunk.js.map",
+    "static/js/2.1b713b96.chunk.js": "/covid-vaccine-finder/static/js/2.1b713b96.chunk.js",
+    "static/js/2.1b713b96.chunk.js.map": "/covid-vaccine-finder/static/js/2.1b713b96.chunk.js.map",
     "static/js/3.c1233c74.chunk.js": "/covid-vaccine-finder/static/js/3.c1233c74.chunk.js",
     "static/js/3.c1233c74.chunk.js.map": "/covid-vaccine-finder/static/js/3.c1233c74.chunk.js.map",
     "index.html": "/covid-vaccine-finder/index.html",
     "static/css/main.145d0588.chunk.css.map": "/covid-vaccine-finder/static/css/main.145d0588.chunk.css.map",
-    "static/js/2.fd2be1f3.chunk.js.LICENSE.txt": "/covid-vaccine-finder/static/js/2.fd2be1f3.chunk.js.LICENSE.txt"
+    "static/js/2.1b713b96.chunk.js.LICENSE.txt": "/covid-vaccine-finder/static/js/2.1b713b96.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8960bd83.js",
-    "static/js/2.fd2be1f3.chunk.js",
+    "static/js/2.1b713b96.chunk.js",
     "static/css/main.145d0588.chunk.css",
-    "static/js/main.15c55f50.chunk.js"
+    "static/js/main.5f3d5089.chunk.js"
   ]
 }
