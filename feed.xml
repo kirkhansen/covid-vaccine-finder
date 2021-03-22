@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Covid Vaccine Finder Updates</title><link>https://kirkhansen.github.io/covid-vaccine-finder/</link><description>Feed produces new records when available vaccine is detected.</description><language>en-US</language><lastBuildDate>Mon, 22 Mar 2021 18:54:21 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>Vaccine Available</title><description>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Covid Vaccine Finder Updates</title><link>https://kirkhansen.github.io/covid-vaccine-finder/</link><description>Feed produces new records when available vaccine is detected.</description><language>en-US</language><lastBuildDate>Mon, 22 Mar 2021 19:09:47 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>Vaccine Available</title><description>
+        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
+        &lt;table&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Provider&lt;/th&gt;
+            &lt;th&gt;Store Name&lt;/th&gt;
+            &lt;th&gt;Store Address&lt;/th&gt;
+            &lt;th&gt;Store City&lt;/th&gt;
+            &lt;th&gt;Appointment Link&lt;/th&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Hy-Vee&lt;/td&gt;
+            &lt;td&gt;Event: Des Moines 5 Hy-Vee 2nd Dose Event for Polk County&lt;/td&gt;
+            &lt;td&gt;1107 E Army Post Rd&lt;/td&gt;
+            &lt;td&gt;Des Moines&lt;/td&gt;
+            &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+        </description><pubDate>Mon, 22 Mar 2021 19:09:47 GMT</pubDate><guid isPermaLink="false">Event: Des Moines 5 Hy-Vee 2nd Dose Event for Polk County1107 E Army Post RdDes Moines2021-03-22</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -17,7 +35,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Mon, 22 Mar 2021 18:54:21 GMT</pubDate><guid isPermaLink="false">Event: Hy-Vee Lincoln 2 grocery event1601 N 84th stlincoln2021-03-22</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Mon, 22 Mar 2021 19:09:47 GMT</pubDate><guid isPermaLink="false">Event: Hy-Vee Lincoln 2 grocery event1601 N 84th stlincoln2021-03-22</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -35,7 +53,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Mon, 22 Mar 2021 18:54:21 GMT</pubDate><guid isPermaLink="false">Event: Council Bluffs, Madison Ave Hy-Vee, Covid-19 Vaccine Clinic1745 Madison AveCouncil Bluffs2021-03-22</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Mon, 22 Mar 2021 19:09:47 GMT</pubDate><guid isPermaLink="false">Event: Council Bluffs, Madison Ave Hy-Vee, Covid-19 Vaccine Clinic1745 Madison AveCouncil Bluffs2021-03-22</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -53,7 +71,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Mon, 22 Mar 2021 18:54:21 GMT</pubDate><guid isPermaLink="false">Event: West Broadway Hy-Vee Pfizer Vaccination Clinic2323 W BroadwayCouncil Bluffs2021-03-22</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Mon, 22 Mar 2021 19:09:47 GMT</pubDate><guid isPermaLink="false">Event: West Broadway Hy-Vee Pfizer Vaccination Clinic2323 W BroadwayCouncil Bluffs2021-03-22</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -71,7 +89,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Mon, 22 Mar 2021 18:54:21 GMT</pubDate><guid isPermaLink="false">Event: Nebraska Residents Ages 60+ or Tier 1 - Pfizer Vaccine16418 Westside DrPlattsmouth2021-03-22</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Mon, 22 Mar 2021 19:09:47 GMT</pubDate><guid isPermaLink="false">Event: Nebraska Residents Ages 60+ or Tier 1 - Pfizer Vaccine16418 Westside DrPlattsmouth2021-03-22</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -89,7 +107,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Mon, 22 Mar 2021 18:54:21 GMT</pubDate><guid isPermaLink="false">Event: Cass &amp; Sarpy County Residents Ages 60+ or Tier 1 - Moderna Vaccine16418 Westside DrPlattsmouth2021-03-22</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Mon, 22 Mar 2021 19:09:47 GMT</pubDate><guid isPermaLink="false">Event: Cass &amp; Sarpy County Residents Ages 60+ or Tier 1 - Moderna Vaccine16418 Westside DrPlattsmouth2021-03-22</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -107,7 +125,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Mon, 22 Mar 2021 18:54:21 GMT</pubDate><guid isPermaLink="false">Event: D&amp;D Employee Vaccine Event at Hy-Vee Omaha #15150 Center St Omaha2021-03-22</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Mon, 22 Mar 2021 19:09:47 GMT</pubDate><guid isPermaLink="false">Event: D&amp;D Employee Vaccine Event at Hy-Vee Omaha #15150 Center St Omaha2021-03-22</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -125,7 +143,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Mon, 22 Mar 2021 18:54:21 GMT</pubDate><guid isPermaLink="false">Event: Sarpy/Cass County Residents 60+ Vaccination Event11650 S 73rd StPapillion2021-03-22</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Mon, 22 Mar 2021 19:09:47 GMT</pubDate><guid isPermaLink="false">Event: Sarpy/Cass County Residents 60+ Vaccination Event11650 S 73rd StPapillion2021-03-22</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -143,4 +161,4 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Mon, 22 Mar 2021 18:54:21 GMT</pubDate><guid isPermaLink="false">Event: Columbia Hy-Vee #3 Event Vaccine 25 Conley RdColumbia 2021-03-22</guid></item></channel></rss>
+        </description><pubDate>Mon, 22 Mar 2021 19:09:47 GMT</pubDate><guid isPermaLink="false">Event: Columbia Hy-Vee #3 Event Vaccine 25 Conley RdColumbia 2021-03-22</guid></item></channel></rss>
