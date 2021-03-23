@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Covid Vaccine Finder Updates</title><link>https://kirkhansen.github.io/covid-vaccine-finder/</link><description>Feed produces new records when available vaccine is detected.</description><language>en-US</language><lastBuildDate>Tue, 23 Mar 2021 23:11:48 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>Vaccine Available</title><description>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Covid Vaccine Finder Updates</title><link>https://kirkhansen.github.io/covid-vaccine-finder/</link><description>Feed produces new records when available vaccine is detected.</description><language>en-US</language><lastBuildDate>Tue, 23 Mar 2021 23:44:09 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>Vaccine Available</title><description>
+        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
+        &lt;table&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Provider&lt;/th&gt;
+            &lt;th&gt;Store Name&lt;/th&gt;
+            &lt;th&gt;Store Address&lt;/th&gt;
+            &lt;th&gt;Store City&lt;/th&gt;
+            &lt;th&gt;Appointment Link&lt;/th&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Hy-Vee&lt;/td&gt;
+            &lt;td&gt;Des Moines #2&lt;/td&gt;
+            &lt;td&gt;2540 E Euclid Ave&lt;/td&gt;
+            &lt;td&gt;Des Moines&lt;/td&gt;
+            &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+        </description><pubDate>Tue, 23 Mar 2021 23:44:09 GMT</pubDate><guid isPermaLink="false">Des Moines #22540 E Euclid AveDes Moines2021-03-23</guid></item><item><title>Vaccine Available</title><description>
+        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
+        &lt;table&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Provider&lt;/th&gt;
+            &lt;th&gt;Store Name&lt;/th&gt;
+            &lt;th&gt;Store Address&lt;/th&gt;
+            &lt;th&gt;Store City&lt;/th&gt;
+            &lt;th&gt;Appointment Link&lt;/th&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Hy-Vee&lt;/td&gt;
+            &lt;td&gt;Waverly&lt;/td&gt;
+            &lt;td&gt;1311 4th St SW&lt;/td&gt;
+            &lt;td&gt;Waverly&lt;/td&gt;
+            &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+        </description><pubDate>Tue, 23 Mar 2021 23:44:09 GMT</pubDate><guid isPermaLink="false">Waverly1311 4th St SWWaverly2021-03-23</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -17,7 +53,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Tue, 23 Mar 2021 23:11:48 GMT</pubDate><guid isPermaLink="false">Charles City901 Kelly StreetCharles City2021-03-23</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Tue, 23 Mar 2021 23:44:09 GMT</pubDate><guid isPermaLink="false">Charles City901 Kelly StreetCharles City2021-03-23</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -35,7 +71,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Tue, 23 Mar 2021 23:11:48 GMT</pubDate><guid isPermaLink="false">Event: Cass &amp; Sarpy County Residents Ages 60+ or Tier 1 - Moderna Vaccine16418 Westside DrPlattsmouth2021-03-23</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Tue, 23 Mar 2021 23:44:09 GMT</pubDate><guid isPermaLink="false">Event: Cass &amp; Sarpy County Residents Ages 60+ or Tier 1 - Moderna Vaccine16418 Westside DrPlattsmouth2021-03-23</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -53,7 +89,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Tue, 23 Mar 2021 23:11:48 GMT</pubDate><guid isPermaLink="false">Event: Springfield MO COVID Vaccine Clinic1720 West Battlefield RdSpringfield 2021-03-23</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Tue, 23 Mar 2021 23:44:09 GMT</pubDate><guid isPermaLink="false">Event: Springfield MO COVID Vaccine Clinic1720 West Battlefield RdSpringfield 2021-03-23</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -71,7 +107,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Tue, 23 Mar 2021 23:11:48 GMT</pubDate><guid isPermaLink="false">Event: Bio-Techne Employee Event614 McKinley Place NEMinneapolis2021-03-23</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Tue, 23 Mar 2021 23:44:09 GMT</pubDate><guid isPermaLink="false">Event: Bio-Techne Employee Event614 McKinley Place NEMinneapolis2021-03-23</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -89,7 +125,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Tue, 23 Mar 2021 23:11:48 GMT</pubDate><guid isPermaLink="false">Event: Council Bluffs, Madison Ave Hy-Vee Clubroom - Covid-19 Vaccine Clinic1745 Madison AveCouncil Bluffs2021-03-23</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Tue, 23 Mar 2021 23:44:09 GMT</pubDate><guid isPermaLink="false">Event: Council Bluffs, Madison Ave Hy-Vee Clubroom - Covid-19 Vaccine Clinic1745 Madison AveCouncil Bluffs2021-03-23</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -107,4 +143,4 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Tue, 23 Mar 2021 23:11:48 GMT</pubDate><guid isPermaLink="false">Event: Hy-Vee Lincoln #3 Pfizer vaccination event5020 N 27th StLincoln2021-03-23</guid></item></channel></rss>
+        </description><pubDate>Tue, 23 Mar 2021 23:44:09 GMT</pubDate><guid isPermaLink="false">Event: Hy-Vee Lincoln #3 Pfizer vaccination event5020 N 27th StLincoln2021-03-23</guid></item></channel></rss>
