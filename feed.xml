@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Covid Vaccine Finder Updates</title><link>https://kirkhansen.github.io/covid-vaccine-finder/</link><description>Feed produces new records when available vaccine is detected.</description><language>en-US</language><lastBuildDate>Thu, 25 Mar 2021 12:18:05 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>Vaccine Available</title><description>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Covid Vaccine Finder Updates</title><link>https://kirkhansen.github.io/covid-vaccine-finder/</link><description>Feed produces new records when available vaccine is detected.</description><language>en-US</language><lastBuildDate>Thu, 25 Mar 2021 12:45:21 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>Vaccine Available</title><description>
+        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
+        &lt;table&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Provider&lt;/th&gt;
+            &lt;th&gt;Store Name&lt;/th&gt;
+            &lt;th&gt;Store Address&lt;/th&gt;
+            &lt;th&gt;Store City&lt;/th&gt;
+            &lt;th&gt;Appointment Link&lt;/th&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Hy-Vee&lt;/td&gt;
+            &lt;td&gt;Des Moines #5&lt;/td&gt;
+            &lt;td&gt;1107 E Army Post Rd&lt;/td&gt;
+            &lt;td&gt;Des Moines&lt;/td&gt;
+            &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+        </description><pubDate>Thu, 25 Mar 2021 12:45:21 GMT</pubDate><guid isPermaLink="false">Des Moines #51107 E Army Post RdDes Moines2021-03-25</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -17,7 +35,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 25 Mar 2021 12:18:05 GMT</pubDate><guid isPermaLink="false">Oelwein Dollar Fresh1345 S Frederick AveOelwein2021-03-25</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 25 Mar 2021 12:45:21 GMT</pubDate><guid isPermaLink="false">Oelwein Dollar Fresh1345 S Frederick AveOelwein2021-03-25</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -35,7 +53,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 25 Mar 2021 12:18:05 GMT</pubDate><guid isPermaLink="false">Charles City901 Kelly StreetCharles City2021-03-25</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 25 Mar 2021 12:45:21 GMT</pubDate><guid isPermaLink="false">Charles City901 Kelly StreetCharles City2021-03-25</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -53,7 +71,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 25 Mar 2021 12:18:05 GMT</pubDate><guid isPermaLink="false">Event: Drake University Harkin Center2800 University AvenueDes Moines2021-03-25</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 25 Mar 2021 12:45:21 GMT</pubDate><guid isPermaLink="false">Event: Drake University Harkin Center2800 University AvenueDes Moines2021-03-25</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -71,7 +89,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 25 Mar 2021 12:18:05 GMT</pubDate><guid isPermaLink="false">Event: Bio-Techne Employee Event614 McKinley Place NEMinneapolis2021-03-25</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 25 Mar 2021 12:45:21 GMT</pubDate><guid isPermaLink="false">Event: Bio-Techne Employee Event614 McKinley Place NEMinneapolis2021-03-25</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -89,7 +107,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 25 Mar 2021 12:18:05 GMT</pubDate><guid isPermaLink="false">Event: Council Bluffs, Madison Ave Hy-Vee Clubroom - Covid-19 Vaccine Clinic1745 Madison AveCouncil Bluffs2021-03-25</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 25 Mar 2021 12:45:21 GMT</pubDate><guid isPermaLink="false">Event: Council Bluffs, Madison Ave Hy-Vee Clubroom - Covid-19 Vaccine Clinic1745 Madison AveCouncil Bluffs2021-03-25</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -107,7 +125,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 25 Mar 2021 12:18:05 GMT</pubDate><guid isPermaLink="false">Event: West Broadway Hy-Vee Pfizer Vaccination Clinic2323 West BroadwayCouncil Bluffs2021-03-25</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 25 Mar 2021 12:45:21 GMT</pubDate><guid isPermaLink="false">Event: West Broadway Hy-Vee Pfizer Vaccination Clinic2323 West BroadwayCouncil Bluffs2021-03-25</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -125,7 +143,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 25 Mar 2021 12:18:05 GMT</pubDate><guid isPermaLink="false">Event: Medtronic Vaccination Event – Plymouth4600 Nathan LnPlymouth2021-03-25</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 25 Mar 2021 12:45:21 GMT</pubDate><guid isPermaLink="false">Event: Medtronic Vaccination Event – Plymouth4600 Nathan LnPlymouth2021-03-25</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -143,7 +161,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 25 Mar 2021 12:18:05 GMT</pubDate><guid isPermaLink="false">Event: Medtronic Vaccination Event  – Rice Creek7000 Central Ave NEMinneapolis, 2021-03-25</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 25 Mar 2021 12:45:21 GMT</pubDate><guid isPermaLink="false">Event: Medtronic Vaccination Event  – Rice Creek7000 Central Ave NEMinneapolis, 2021-03-25</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -161,7 +179,7 @@
             &lt;td&gt;&lt;a href="https://www.walgreens.com/findcare/vaccination/covid-19/location-screening"&gt;https://www.walgreens.com/findcare/vaccination/covid-19/location-screening&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 25 Mar 2021 12:18:05 GMT</pubDate><guid isPermaLink="false">None50158Marshalltown2021-03-25</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 25 Mar 2021 12:45:21 GMT</pubDate><guid isPermaLink="false">None50158Marshalltown2021-03-25</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -179,7 +197,25 @@
             &lt;td&gt;&lt;a href="https://www.walgreens.com/findcare/vaccination/covid-19/location-screening"&gt;https://www.walgreens.com/findcare/vaccination/covid-19/location-screening&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 25 Mar 2021 12:18:05 GMT</pubDate><guid isPermaLink="false">None51301Spencer2021-03-25</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 25 Mar 2021 12:45:21 GMT</pubDate><guid isPermaLink="false">None51301Spencer2021-03-25</guid></item><item><title>Vaccine Available</title><description>
+        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
+        &lt;table&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Provider&lt;/th&gt;
+            &lt;th&gt;Store Name&lt;/th&gt;
+            &lt;th&gt;Store Address&lt;/th&gt;
+            &lt;th&gt;Store City&lt;/th&gt;
+            &lt;th&gt;Appointment Link&lt;/th&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Walgreens&lt;/td&gt;
+            &lt;td&gt;None&lt;/td&gt;
+            &lt;td&gt;52722&lt;/td&gt;
+            &lt;td&gt;Bettendorf&lt;/td&gt;
+            &lt;td&gt;&lt;a href="https://www.walgreens.com/findcare/vaccination/covid-19/location-screening"&gt;https://www.walgreens.com/findcare/vaccination/covid-19/location-screening&lt;/a&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+        </description><pubDate>Thu, 25 Mar 2021 12:45:21 GMT</pubDate><guid isPermaLink="false">None52722Bettendorf2021-03-25</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -197,7 +233,7 @@
             &lt;td&gt;&lt;a href="https://www.walgreens.com/findcare/vaccination/covid-19/location-screening"&gt;https://www.walgreens.com/findcare/vaccination/covid-19/location-screening&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 25 Mar 2021 12:18:05 GMT</pubDate><guid isPermaLink="false">None50501Fort Dodge2021-03-25</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 25 Mar 2021 12:45:21 GMT</pubDate><guid isPermaLink="false">None50501Fort Dodge2021-03-25</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -215,7 +251,7 @@
             &lt;td&gt;&lt;a href="https://www.walgreens.com/findcare/vaccination/covid-19/location-screening"&gt;https://www.walgreens.com/findcare/vaccination/covid-19/location-screening&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 25 Mar 2021 12:18:05 GMT</pubDate><guid isPermaLink="false">None52002Dubuque2021-03-25</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 25 Mar 2021 12:45:21 GMT</pubDate><guid isPermaLink="false">None52002Dubuque2021-03-25</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -233,25 +269,7 @@
             &lt;td&gt;&lt;a href="https://www.walgreens.com/findcare/vaccination/covid-19/location-screening"&gt;https://www.walgreens.com/findcare/vaccination/covid-19/location-screening&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 25 Mar 2021 12:18:05 GMT</pubDate><guid isPermaLink="false">None52601Burlington2021-03-25</guid></item><item><title>Vaccine Available</title><description>
-        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
-        &lt;table&gt;
-          &lt;tr&gt;
-            &lt;th&gt;Provider&lt;/th&gt;
-            &lt;th&gt;Store Name&lt;/th&gt;
-            &lt;th&gt;Store Address&lt;/th&gt;
-            &lt;th&gt;Store City&lt;/th&gt;
-            &lt;th&gt;Appointment Link&lt;/th&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;Walgreens&lt;/td&gt;
-            &lt;td&gt;None&lt;/td&gt;
-            &lt;td&gt;50009&lt;/td&gt;
-            &lt;td&gt;Altoona&lt;/td&gt;
-            &lt;td&gt;&lt;a href="https://www.walgreens.com/findcare/vaccination/covid-19/location-screening"&gt;https://www.walgreens.com/findcare/vaccination/covid-19/location-screening&lt;/a&gt;&lt;/td&gt;
-          &lt;/tr&gt;
-        &lt;/table&gt;
-        </description><pubDate>Thu, 25 Mar 2021 12:18:05 GMT</pubDate><guid isPermaLink="false">None50009Altoona2021-03-25</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 25 Mar 2021 12:45:21 GMT</pubDate><guid isPermaLink="false">None52601Burlington2021-03-25</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -269,22 +287,4 @@
             &lt;td&gt;&lt;a href="https://www.walgreens.com/findcare/vaccination/covid-19/location-screening"&gt;https://www.walgreens.com/findcare/vaccination/covid-19/location-screening&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 25 Mar 2021 12:18:05 GMT</pubDate><guid isPermaLink="false">None51401Carroll2021-03-25</guid></item><item><title>Vaccine Available</title><description>
-        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
-        &lt;table&gt;
-          &lt;tr&gt;
-            &lt;th&gt;Provider&lt;/th&gt;
-            &lt;th&gt;Store Name&lt;/th&gt;
-            &lt;th&gt;Store Address&lt;/th&gt;
-            &lt;th&gt;Store City&lt;/th&gt;
-            &lt;th&gt;Appointment Link&lt;/th&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;Walgreens&lt;/td&gt;
-            &lt;td&gt;None&lt;/td&gt;
-            &lt;td&gt;50320&lt;/td&gt;
-            &lt;td&gt;Des Moines&lt;/td&gt;
-            &lt;td&gt;&lt;a href="https://www.walgreens.com/findcare/vaccination/covid-19/location-screening"&gt;https://www.walgreens.com/findcare/vaccination/covid-19/location-screening&lt;/a&gt;&lt;/td&gt;
-          &lt;/tr&gt;
-        &lt;/table&gt;
-        </description><pubDate>Thu, 25 Mar 2021 12:18:05 GMT</pubDate><guid isPermaLink="false">None50320Des Moines2021-03-25</guid></item></channel></rss>
+        </description><pubDate>Thu, 25 Mar 2021 12:45:21 GMT</pubDate><guid isPermaLink="false">None51401Carroll2021-03-25</guid></item></channel></rss>
