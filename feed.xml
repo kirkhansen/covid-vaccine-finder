@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Covid Vaccine Finder Updates</title><link>https://kirkhansen.github.io/covid-vaccine-finder/</link><description>Feed produces new records when available vaccine is detected.</description><language>en-US</language><lastBuildDate>Mon, 29 Mar 2021 14:38:50 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>Vaccine Available</title><description>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Covid Vaccine Finder Updates</title><link>https://kirkhansen.github.io/covid-vaccine-finder/</link><description>Feed produces new records when available vaccine is detected.</description><language>en-US</language><lastBuildDate>Mon, 29 Mar 2021 15:16:23 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -17,4 +17,40 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Mon, 29 Mar 2021 14:38:50 GMT</pubDate><guid isPermaLink="false">Event: Nebraska Cass and Sarpy residents Moderna Second Dose ONLY 16418 Westside DrivePlattsmouth2021-03-29</guid></item></channel></rss>
+        </description><pubDate>Mon, 29 Mar 2021 15:16:23 GMT</pubDate><guid isPermaLink="false">Event: Nebraska Cass and Sarpy residents Moderna Second Dose ONLY 16418 Westside DrivePlattsmouth2021-03-29</guid></item><item><title>Vaccine Available</title><description>
+        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
+        &lt;table&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Provider&lt;/th&gt;
+            &lt;th&gt;Store Name&lt;/th&gt;
+            &lt;th&gt;Store Address&lt;/th&gt;
+            &lt;th&gt;Store City&lt;/th&gt;
+            &lt;th&gt;Appointment Link&lt;/th&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Hy-Vee&lt;/td&gt;
+            &lt;td&gt;Event: Hy-Vee Mankato 2 Pfizer Vaccination event&lt;/td&gt;
+            &lt;td&gt;2010 Adams St&lt;/td&gt;
+            &lt;td&gt;Mankato&lt;/td&gt;
+            &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+        </description><pubDate>Mon, 29 Mar 2021 15:16:23 GMT</pubDate><guid isPermaLink="false">Event: Hy-Vee Mankato 2 Pfizer Vaccination event2010 Adams StMankato2021-03-29</guid></item><item><title>Vaccine Available</title><description>
+        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
+        &lt;table&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Provider&lt;/th&gt;
+            &lt;th&gt;Store Name&lt;/th&gt;
+            &lt;th&gt;Store Address&lt;/th&gt;
+            &lt;th&gt;Store City&lt;/th&gt;
+            &lt;th&gt;Appointment Link&lt;/th&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Medicap&lt;/td&gt;
+            &lt;td&gt;Altoona Medicap&lt;/td&gt;
+            &lt;td&gt;None&lt;/td&gt;
+            &lt;td&gt;None&lt;/td&gt;
+            &lt;td&gt;&lt;a href="https://hipaa.jotform.com/203496311988162"&gt;https://hipaa.jotform.com/203496311988162&lt;/a&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+        </description><pubDate>Mon, 29 Mar 2021 15:16:23 GMT</pubDate><guid isPermaLink="false">Altoona MedicapNoneNone2021-03-29</guid></item></channel></rss>
