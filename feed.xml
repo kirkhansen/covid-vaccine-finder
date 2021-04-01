@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Covid Vaccine Finder Updates</title><link>https://kirkhansen.github.io/covid-vaccine-finder/</link><description>Feed produces new records when available vaccine is detected.</description><language>en-US</language><lastBuildDate>Thu, 01 Apr 2021 22:41:26 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>Vaccine Available</title><description>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Covid Vaccine Finder Updates</title><link>https://kirkhansen.github.io/covid-vaccine-finder/</link><description>Feed produces new records when available vaccine is detected.</description><language>en-US</language><lastBuildDate>Thu, 01 Apr 2021 23:28:06 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -17,7 +17,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 01 Apr 2021 22:41:26 GMT</pubDate><guid isPermaLink="false">Oelwein Dollar Fresh1345 S Frederick AveOelwein2021-04-01</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 01 Apr 2021 23:28:06 GMT</pubDate><guid isPermaLink="false">Oelwein Dollar Fresh1345 S Frederick AveOelwein2021-04-01</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -35,7 +35,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 01 Apr 2021 22:41:26 GMT</pubDate><guid isPermaLink="false">Charles City901 Kelly StreetCharles City2021-04-01</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 01 Apr 2021 23:28:06 GMT</pubDate><guid isPermaLink="false">Charles City901 Kelly StreetCharles City2021-04-01</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -53,4 +53,22 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 01 Apr 2021 22:41:26 GMT</pubDate><guid isPermaLink="false">Event: **Sarpy and Cass County Nebraska Only** Age 50+ or Tier 1 - Moderna16418 Westside DrPlattsmouth2021-04-01</guid></item></channel></rss>
+        </description><pubDate>Thu, 01 Apr 2021 23:28:06 GMT</pubDate><guid isPermaLink="false">Event: **Sarpy and Cass County Nebraska Only** Age 50+ or Tier 1 - Moderna16418 Westside DrPlattsmouth2021-04-01</guid></item><item><title>Vaccine Available</title><description>
+        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
+        &lt;table&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Provider&lt;/th&gt;
+            &lt;th&gt;Store Name&lt;/th&gt;
+            &lt;th&gt;Store Address&lt;/th&gt;
+            &lt;th&gt;Store City&lt;/th&gt;
+            &lt;th&gt;Appointment Link&lt;/th&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;CVS&lt;/td&gt;
+            &lt;td&gt;16530&lt;/td&gt;
+            &lt;td&gt;320 S DUFF AVE&lt;/td&gt;
+            &lt;td&gt;AMES&lt;/td&gt;
+            &lt;td&gt;&lt;a href="https://www.cvs.com/vaccine/intake/store/cvd-schedule?icid=covidvaccine-hb-schedule"&gt;https://www.cvs.com/vaccine/intake/store/cvd-schedule?icid=covidvaccine-hb-schedule&lt;/a&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+        </description><pubDate>Thu, 01 Apr 2021 23:28:06 GMT</pubDate><guid isPermaLink="false">16530320 S DUFF AVEAMES2021-04-01</guid></item></channel></rss>
