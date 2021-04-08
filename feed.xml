@@ -1,41 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Covid Vaccine Finder Updates</title><link>https://kirkhansen.github.io/covid-vaccine-finder/</link><description>Feed produces new records when available vaccine is detected.</description><language>en-US</language><lastBuildDate>Thu, 08 Apr 2021 11:41:14 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>Vaccine Available</title><description>
-        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
-        &lt;table&gt;
-          &lt;tr&gt;
-            &lt;th&gt;Provider&lt;/th&gt;
-            &lt;th&gt;Store Name&lt;/th&gt;
-            &lt;th&gt;Store Address&lt;/th&gt;
-            &lt;th&gt;Store City&lt;/th&gt;
-            &lt;th&gt;Appointment Link&lt;/th&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;Hy-Vee&lt;/td&gt;
-            &lt;td&gt;Winterset&lt;/td&gt;
-            &lt;td&gt;923 N 1st St&lt;/td&gt;
-            &lt;td&gt;Winterset&lt;/td&gt;
-            &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
-          &lt;/tr&gt;
-        &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 11:41:14 GMT</pubDate><guid isPermaLink="false">Winterset923 N 1st StWinterset2021-04-08</guid></item><item><title>Vaccine Available</title><description>
-        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
-        &lt;table&gt;
-          &lt;tr&gt;
-            &lt;th&gt;Provider&lt;/th&gt;
-            &lt;th&gt;Store Name&lt;/th&gt;
-            &lt;th&gt;Store Address&lt;/th&gt;
-            &lt;th&gt;Store City&lt;/th&gt;
-            &lt;th&gt;Appointment Link&lt;/th&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;Hy-Vee&lt;/td&gt;
-            &lt;td&gt;Perry&lt;/td&gt;
-            &lt;td&gt;1215 141st St&lt;/td&gt;
-            &lt;td&gt;Perry&lt;/td&gt;
-            &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
-          &lt;/tr&gt;
-        &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 11:41:14 GMT</pubDate><guid isPermaLink="false">Perry1215 141st StPerry2021-04-08</guid></item><item><title>Vaccine Available</title><description>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Covid Vaccine Finder Updates</title><link>https://kirkhansen.github.io/covid-vaccine-finder/</link><description>Feed produces new records when available vaccine is detected.</description><language>en-US</language><lastBuildDate>Thu, 08 Apr 2021 12:21:21 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -53,7 +17,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 11:41:14 GMT</pubDate><guid isPermaLink="false">Osceola510 W McLane StOsceola2021-04-08</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 08 Apr 2021 12:21:21 GMT</pubDate><guid isPermaLink="false">Osceola510 W McLane StOsceola2021-04-08</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -71,43 +35,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 11:41:14 GMT</pubDate><guid isPermaLink="false">Chariton2001 Court AveChariton2021-04-08</guid></item><item><title>Vaccine Available</title><description>
-        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
-        &lt;table&gt;
-          &lt;tr&gt;
-            &lt;th&gt;Provider&lt;/th&gt;
-            &lt;th&gt;Store Name&lt;/th&gt;
-            &lt;th&gt;Store Address&lt;/th&gt;
-            &lt;th&gt;Store City&lt;/th&gt;
-            &lt;th&gt;Appointment Link&lt;/th&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;Hy-Vee&lt;/td&gt;
-            &lt;td&gt;Cedar Falls&lt;/td&gt;
-            &lt;td&gt;6301 University Ave&lt;/td&gt;
-            &lt;td&gt;Cedar Falls&lt;/td&gt;
-            &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
-          &lt;/tr&gt;
-        &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 11:41:14 GMT</pubDate><guid isPermaLink="false">Cedar Falls6301 University AveCedar Falls2021-04-08</guid></item><item><title>Vaccine Available</title><description>
-        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
-        &lt;table&gt;
-          &lt;tr&gt;
-            &lt;th&gt;Provider&lt;/th&gt;
-            &lt;th&gt;Store Name&lt;/th&gt;
-            &lt;th&gt;Store Address&lt;/th&gt;
-            &lt;th&gt;Store City&lt;/th&gt;
-            &lt;th&gt;Appointment Link&lt;/th&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;Hy-Vee&lt;/td&gt;
-            &lt;td&gt;Waterloo #3&lt;/td&gt;
-            &lt;td&gt;1422 Flammang Dr&lt;/td&gt;
-            &lt;td&gt;Waterloo&lt;/td&gt;
-            &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
-          &lt;/tr&gt;
-        &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 11:41:14 GMT</pubDate><guid isPermaLink="false">Waterloo #31422 Flammang DrWaterloo2021-04-08</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 08 Apr 2021 12:21:21 GMT</pubDate><guid isPermaLink="false">Chariton2001 Court AveChariton2021-04-08</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -125,7 +53,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 11:41:14 GMT</pubDate><guid isPermaLink="false">Oelwein Dollar Fresh1345 S Frederick AveOelwein2021-04-08</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 08 Apr 2021 12:21:21 GMT</pubDate><guid isPermaLink="false">Oelwein Dollar Fresh1345 S Frederick AveOelwein2021-04-08</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -143,25 +71,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 11:41:14 GMT</pubDate><guid isPermaLink="false">Charles City901 Kelly StreetCharles City2021-04-08</guid></item><item><title>Vaccine Available</title><description>
-        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
-        &lt;table&gt;
-          &lt;tr&gt;
-            &lt;th&gt;Provider&lt;/th&gt;
-            &lt;th&gt;Store Name&lt;/th&gt;
-            &lt;th&gt;Store Address&lt;/th&gt;
-            &lt;th&gt;Store City&lt;/th&gt;
-            &lt;th&gt;Appointment Link&lt;/th&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;Hy-Vee&lt;/td&gt;
-            &lt;td&gt;Toledo Dollar Fresh&lt;/td&gt;
-            &lt;td&gt;1006 S County Rd&lt;/td&gt;
-            &lt;td&gt;Toledo&lt;/td&gt;
-            &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
-          &lt;/tr&gt;
-        &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 11:41:14 GMT</pubDate><guid isPermaLink="false">Toledo Dollar Fresh1006 S County RdToledo2021-04-08</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 08 Apr 2021 12:21:21 GMT</pubDate><guid isPermaLink="false">Charles City901 Kelly StreetCharles City2021-04-08</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -179,7 +89,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 11:41:14 GMT</pubDate><guid isPermaLink="false">Marshalltown802 S Center StMarshalltown2021-04-08</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 08 Apr 2021 12:21:21 GMT</pubDate><guid isPermaLink="false">Marshalltown802 S Center StMarshalltown2021-04-08</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -197,7 +107,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 11:41:14 GMT</pubDate><guid isPermaLink="false">Event: Moderna *SECOND SHOT ONLY*  *Nebraska CASS &amp; SARPY Counties ONLY*16418 Westside DrivePlattsmouth2021-04-08</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 08 Apr 2021 12:21:21 GMT</pubDate><guid isPermaLink="false">Event: Moderna *SECOND SHOT ONLY*  *Nebraska CASS &amp; SARPY Counties ONLY*16418 Westside DrivePlattsmouth2021-04-08</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -215,7 +125,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 11:41:14 GMT</pubDate><guid isPermaLink="false">Event: ICS640 Lincoln WayAmes2021-04-08</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 08 Apr 2021 12:21:21 GMT</pubDate><guid isPermaLink="false">Event: ICS640 Lincoln WayAmes2021-04-08</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -233,25 +143,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 11:41:14 GMT</pubDate><guid isPermaLink="false">Event: Nebraska Residents *Pfizer SECOND SHOT ONLY*  16418 Westside DrPlattsmouth2021-04-08</guid></item><item><title>Vaccine Available</title><description>
-        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
-        &lt;table&gt;
-          &lt;tr&gt;
-            &lt;th&gt;Provider&lt;/th&gt;
-            &lt;th&gt;Store Name&lt;/th&gt;
-            &lt;th&gt;Store Address&lt;/th&gt;
-            &lt;th&gt;Store City&lt;/th&gt;
-            &lt;th&gt;Appointment Link&lt;/th&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;CVS&lt;/td&gt;
-            &lt;td&gt;16914&lt;/td&gt;
-            &lt;td&gt;11148 PLUM DR&lt;/td&gt;
-            &lt;td&gt;URBANDALE&lt;/td&gt;
-            &lt;td&gt;&lt;a href="https://www.cvs.com/vaccine/intake/store/cvd-schedule?icid=covidvaccine-hb-schedule"&gt;https://www.cvs.com/vaccine/intake/store/cvd-schedule?icid=covidvaccine-hb-schedule&lt;/a&gt;&lt;/td&gt;
-          &lt;/tr&gt;
-        &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 11:41:14 GMT</pubDate><guid isPermaLink="false">1691411148 PLUM DRURBANDALE2021-04-08</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 08 Apr 2021 12:21:21 GMT</pubDate><guid isPermaLink="false">Event: Nebraska Residents *Pfizer SECOND SHOT ONLY*  16418 Westside DrPlattsmouth2021-04-08</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -269,4 +161,4 @@
             &lt;td&gt;&lt;a href="https://www.cvs.com/vaccine/intake/store/cvd-schedule?icid=covidvaccine-hb-schedule"&gt;https://www.cvs.com/vaccine/intake/store/cvd-schedule?icid=covidvaccine-hb-schedule&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 11:41:14 GMT</pubDate><guid isPermaLink="false">16530320 S DUFF AVEAMES2021-04-08</guid></item></channel></rss>
+        </description><pubDate>Thu, 08 Apr 2021 12:21:21 GMT</pubDate><guid isPermaLink="false">16530320 S DUFF AVEAMES2021-04-08</guid></item></channel></rss>
