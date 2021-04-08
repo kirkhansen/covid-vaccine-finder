@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Covid Vaccine Finder Updates</title><link>https://kirkhansen.github.io/covid-vaccine-finder/</link><description>Feed produces new records when available vaccine is detected.</description><language>en-US</language><lastBuildDate>Thu, 08 Apr 2021 21:42:34 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>Vaccine Available</title><description>
-        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
-        &lt;table&gt;
-          &lt;tr&gt;
-            &lt;th&gt;Provider&lt;/th&gt;
-            &lt;th&gt;Store Name&lt;/th&gt;
-            &lt;th&gt;Store Address&lt;/th&gt;
-            &lt;th&gt;Store City&lt;/th&gt;
-            &lt;th&gt;Appointment Link&lt;/th&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;Hy-Vee&lt;/td&gt;
-            &lt;td&gt;West Des Moines #4&lt;/td&gt;
-            &lt;td&gt;555 S 51st St&lt;/td&gt;
-            &lt;td&gt;West Des Moines&lt;/td&gt;
-            &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
-          &lt;/tr&gt;
-        &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 21:42:34 GMT</pubDate><guid isPermaLink="false">West Des Moines #4555 S 51st StWest Des Moines2021-04-08</guid></item><item><title>Vaccine Available</title><description>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Covid Vaccine Finder Updates</title><link>https://kirkhansen.github.io/covid-vaccine-finder/</link><description>Feed produces new records when available vaccine is detected.</description><language>en-US</language><lastBuildDate>Thu, 08 Apr 2021 22:17:00 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -35,25 +17,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 21:42:34 GMT</pubDate><guid isPermaLink="false">Charles City901 Kelly StreetCharles City2021-04-08</guid></item><item><title>Vaccine Available</title><description>
-        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
-        &lt;table&gt;
-          &lt;tr&gt;
-            &lt;th&gt;Provider&lt;/th&gt;
-            &lt;th&gt;Store Name&lt;/th&gt;
-            &lt;th&gt;Store Address&lt;/th&gt;
-            &lt;th&gt;Store City&lt;/th&gt;
-            &lt;th&gt;Appointment Link&lt;/th&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;Hy-Vee&lt;/td&gt;
-            &lt;td&gt;Event: IDD clinic in Norfolk Friday April 9th from 10am to 3pm&lt;/td&gt;
-            &lt;td&gt;2420 W Omaha Ave&lt;/td&gt;
-            &lt;td&gt;Norfolk&lt;/td&gt;
-            &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
-          &lt;/tr&gt;
-        &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 21:42:34 GMT</pubDate><guid isPermaLink="false">Event: IDD clinic in Norfolk Friday April 9th from 10am to 3pm2420 W Omaha AveNorfolk2021-04-08</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 08 Apr 2021 22:17:00 GMT</pubDate><guid isPermaLink="false">Charles City901 Kelly StreetCharles City2021-04-08</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -71,25 +35,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 21:42:34 GMT</pubDate><guid isPermaLink="false">Event: Moderna *SECOND SHOT ONLY*  *Nebraska CASS &amp; SARPY Counties ONLY*16418 Westside DrivePlattsmouth2021-04-08</guid></item><item><title>Vaccine Available</title><description>
-        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
-        &lt;table&gt;
-          &lt;tr&gt;
-            &lt;th&gt;Provider&lt;/th&gt;
-            &lt;th&gt;Store Name&lt;/th&gt;
-            &lt;th&gt;Store Address&lt;/th&gt;
-            &lt;th&gt;Store City&lt;/th&gt;
-            &lt;th&gt;Appointment Link&lt;/th&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;Hy-Vee&lt;/td&gt;
-            &lt;td&gt;Event: IDD clinic in Grand Island Friday April 9th from 10am to 2pm&lt;/td&gt;
-            &lt;td&gt;115 Wilmar Avenue&lt;/td&gt;
-            &lt;td&gt;Grand Island&lt;/td&gt;
-            &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
-          &lt;/tr&gt;
-        &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 21:42:34 GMT</pubDate><guid isPermaLink="false">Event: IDD clinic in Grand Island Friday April 9th from 10am to 2pm115 Wilmar AvenueGrand Island2021-04-08</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 08 Apr 2021 22:17:00 GMT</pubDate><guid isPermaLink="false">Event: Moderna *SECOND SHOT ONLY*  *Nebraska CASS &amp; SARPY Counties ONLY*16418 Westside DrivePlattsmouth2021-04-08</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -107,25 +53,7 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 21:42:34 GMT</pubDate><guid isPermaLink="false">Event: ICS640 Lincoln WayAmes2021-04-08</guid></item><item><title>Vaccine Available</title><description>
-        &lt;h1&gt;Vaccine availble&lt;/h1&gt;
-        &lt;table&gt;
-          &lt;tr&gt;
-            &lt;th&gt;Provider&lt;/th&gt;
-            &lt;th&gt;Store Name&lt;/th&gt;
-            &lt;th&gt;Store Address&lt;/th&gt;
-            &lt;th&gt;Store City&lt;/th&gt;
-            &lt;th&gt;Appointment Link&lt;/th&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;Hy-Vee&lt;/td&gt;
-            &lt;td&gt;Event: Nebraska Residents *Pfizer SECOND SHOT ONLY*  &lt;/td&gt;
-            &lt;td&gt;16418 Westside Dr&lt;/td&gt;
-            &lt;td&gt;Plattsmouth&lt;/td&gt;
-            &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
-          &lt;/tr&gt;
-        &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 21:42:34 GMT</pubDate><guid isPermaLink="false">Event: Nebraska Residents *Pfizer SECOND SHOT ONLY*  16418 Westside DrPlattsmouth2021-04-08</guid></item><item><title>Vaccine Available</title><description>
+        </description><pubDate>Thu, 08 Apr 2021 22:17:00 GMT</pubDate><guid isPermaLink="false">Event: ICS640 Lincoln WayAmes2021-04-08</guid></item><item><title>Vaccine Available</title><description>
         &lt;h1&gt;Vaccine availble&lt;/h1&gt;
         &lt;table&gt;
           &lt;tr&gt;
@@ -143,4 +71,4 @@
             &lt;td&gt;&lt;a href="https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent"&gt;https://www.hy-vee.com/my-pharmacy/covid-vaccine-consent&lt;/a&gt;&lt;/td&gt;
           &lt;/tr&gt;
         &lt;/table&gt;
-        </description><pubDate>Thu, 08 Apr 2021 21:42:34 GMT</pubDate><guid isPermaLink="false">Event: Hy-Vee Omaha #5 J&amp;J Vaccination event7910 Cass StOmaha2021-04-08</guid></item></channel></rss>
+        </description><pubDate>Thu, 08 Apr 2021 22:17:00 GMT</pubDate><guid isPermaLink="false">Event: Hy-Vee Omaha #5 J&amp;J Vaccination event7910 Cass StOmaha2021-04-08</guid></item></channel></rss>
