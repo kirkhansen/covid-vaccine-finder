@@ -10,7 +10,7 @@ URL = "https://www.vaxxmax.com/set_state_walgreens/IA"
 
 
 def get_and_check():
-    html = requests.get("https://www.vaxxmax.com/set_state_walgreens/IA").text
+    html = requests.get(URL).text
     raw_records = pd.read_html(html, flavor="html5lib")[0].to_dict(orient="records")
     records = [
         VaccineRecord(

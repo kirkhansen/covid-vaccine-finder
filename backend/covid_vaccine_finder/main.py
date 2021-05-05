@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from itertools import chain
 
-from covid_vaccine_finder.providers import cvs, hyvee, medicap, walgreens
+from covid_vaccine_finder.providers import cvs, hyvee, medicap
 from covid_vaccine_finder.rss_feed import generate_rss_feed
 
 DATA_FILE = Path(
@@ -24,7 +24,6 @@ def build_dataset_for_frontend():
             hyvee.get_and_check(),
             medicap.get_and_check(),
             cvs.get_and_check(),
-            walgreens.get_and_check(),
         )
     )
     dict_records = [record._asdict() for record in results]
